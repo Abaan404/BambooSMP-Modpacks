@@ -1,0 +1,13 @@
+name = "No Void Structures"
+filename = "no_void_structures-forge-mc1.20.1-v1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9db2315ed6b883ea40ba72ea482ddaa0b1d6d4e3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5343731
+project-id = 1018608

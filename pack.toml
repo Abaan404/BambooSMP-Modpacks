@@ -1,0 +1,12 @@
+name = "BambooSMP WAP S3"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "3c3570a9381181191f942c3cd54176589fa674b099026350c876f681fe8139e0"
+
+[versions]
+forge = "47.3.7"
+minecraft = "1.20.1"

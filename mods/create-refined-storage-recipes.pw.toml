@@ -1,0 +1,13 @@
+name = "Create Refined Storage Recipes"
+filename = "create_refined_recipes-1.0.1.a.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b92b69d1b2815406b4a86cd9f611e805ef21514e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5525379
+project-id = 1062293

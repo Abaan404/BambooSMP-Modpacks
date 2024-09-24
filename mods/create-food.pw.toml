@@ -1,0 +1,13 @@
+name = "Create: Food"
+filename = "create-food-1.20.1-0.0.2-forge-beta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3f43e3680b47e3c60b7be670ae7f984d0da1eccf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5726623
+project-id = 959439

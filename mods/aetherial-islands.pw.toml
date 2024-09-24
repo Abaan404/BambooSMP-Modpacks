@@ -1,0 +1,13 @@
+name = "Aetherial Islands"
+filename = "aetherial-islands-v1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CHh9WEKT/versions/oRap63pI/aetherial-islands-v1.0.3.jar"
+hash-format = "sha512"
+hash = "fc8097f92b0563b8ac50ba0e466102155419798ed9f4687c2da5f1fed6f469e3b2a34a86e2a71d2b1c27bce056af2ab5a959537fa3157bee141776d09084e8a0"
+
+[update]
+[update.modrinth]
+mod-id = "CHh9WEKT"
+version = "oRap63pI"

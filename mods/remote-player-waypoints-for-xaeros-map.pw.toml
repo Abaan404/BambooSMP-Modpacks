@@ -1,0 +1,13 @@
+name = "Remote Player Waypoints for Xaero's Map"
+filename = "remote_player_waypoints_for_xaero-forge-3.2.0-1.20-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/kiByZ6gx/versions/PrXAwjPm/remote_player_waypoints_for_xaero-forge-3.2.0-1.20-1.20.1.jar"
+hash-format = "sha512"
+hash = "0832cb73d4ea14ab0354d761d1e4e20f30e46c3fbc4862177281540cfa514a16a5b7a49055732b4a85423a7c64f32f27d2b6c3610e970664356539096e1041ee"
+
+[update]
+[update.modrinth]
+mod-id = "kiByZ6gx"
+version = "PrXAwjPm"
