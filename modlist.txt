@@ -1,0 +1,246 @@
+[EMF] Entity Model Features [Fabric & Forge]
+[ETF] Entity Texture Features - [Fabric & Forge]
+A Man With Plushies (AMWPlushies)
+Advanced Mining Dimension
+All The Trims
+Amendments
+Another Furniture
+AppleSkin
+Architectury API (Fabric/Forge/NeoForge)
+Armor Statues [Forge & Fabric]
+Artifacts
+Athena
+AttributeFix
+Azure Paxels
+Bad Wither No Cookie - Reloaded
+Balm
+Beautify!
+Better Combat [Fabric & Forge]
+Better Fps - Render Distance[Forge]
+Beyond Mines: Falling
+BisectHosting Server Integration Menu [FORGE]
+Blur (Forge)
+BM: Potion Amulets
+Bookshelf
+Botania
+Botarium
+Brandon's Core
+Building Gadgets
+Cable Tiers
+Caelus API (Forge/NeoForge)
+CapeJS
+Carry On
+Catalogue
+CERBON's API [Forge | Fabric | NeoForge]
+CERBON's Better Beacons [Forge | Fabric | NeoForge]
+ChoiceTheorem's Overhauled Village
+Citadel
+Client Tweaks
+Cloth Config API (Fabric/Forge/NeoForge)
+Clumps
+Cobweb
+CodeChicken Lib 1.8.+
+CoFH Core
+Collective
+Comforts (Fabric/Forge/Quilt)
+Complementary Shaders - Reimagined
+Complementary Shaders - Unbound
+Construction Wand
+Controllable (Forge)
+Controlling
+CorgiLib
+Cosmetic Armor Reworked
+CraftTweaker
+CraterLib
+Create
+Create Big Cannons
+Create Confectionery
+Create: Estrogen
+Create: Love & War
+Create: The Factory Must Grow
+CreativeCore
+Cucumber Library
+CullLessLeaves Reforged (Unofficial)
+Cupboard
+Curios API (Forge/NeoForge)
+Deeper and Darker
+Default Options
+Dense Ores - Abundant!
+Diagonal Fences [Forge & Fabric]
+Diagonal Walls
+Discord Integration
+Do a Barrel Roll
+Double Doors
+Draconic Evolution
+Drippy Loading Screen
+Dungeons and Taverns
+Durability Tooltip
+Dynamic FPS
+e4mc
+Easy Anvils [Forge & Fabric]
+Easy Magic [Forge & Fabric]
+Easy Shulker Boxes [Forge & Fabric]
+Easy Villagers
+Eclectic Trove (Legendary Tooltips)
+Ecospherical Expansion
+EdivadLib
+Elytra Slot (Fabric/Forge/Quilt)
+Embeddium
+Embeddium++
+Emotecraft (Forge)
+Enchantment Descriptions
+Ender Crop
+Ender IO
+Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons
+Enigmatic Graves Fork
+Explorations
+Explorify – Dungeons & Structures
+Extra Disks
+ExtraStorage
+Fairy Lights
+Falling Leaves (NeoForge/Forge)
+FancyMenu
+Farsight [Forge/Neo]
+FerriteCore ((Neo)Forge)
+Figura
+Flan's Mod: Reloaded
+Flux Networks
+Forge CIT
+Framework
+Fresh Animations
+FTB Chunks (Forge)
+FTB Essentials (Forge & Fabric)
+FTB Library (Forge)
+FTB Quests (Forge)
+FTB Teams (Forge)
+FTB Ultimine (Forge)
+FTB XMod Compat
+Fusion (Connected Textures)
+GeckoLib
+Get It Together, Drops!
+Gliders
+Global Packs
+Goblin Traders
+Grappling Hook Mod
+Guard Villagers
+Harvest with ease
+Iceberg [Neo/Forge]
+ImmediatelyFast
+Immersive Aircraft [Fabric/Forge]
+Immersive Armors [Fabric/Forge]
+Immersive Melodies [Fabric/Forge]
+In Control!
+Industrial Foregoing
+InsaneLib
+Inventory Sorter
+Item Filters
+Item Obliterator [Forge/Neo/Fabric/Quilt]
+ItemZoom
+Jade Addons (NeoForge)
+Jade 🔍
+JourneyMap
+JourneyMap Integration
+Just Enough Beacons Reforged [Forge | Fabric | NeoForge]
+Just Enough Items (JEI)
+Just Enough Resources (JER)
+Just Zoom
+Konkrete [Forge/NeoForge]
+KubeJS
+LaserIO
+Leaves Be Gone [Forge & Fabric]
+Leawind's Third Person
+Legendary Tooltips [Neo/Forge]
+Lithostitched
+Lootr (Forge & NeoForge)
+LuckPerms
+Measurements
+Medieval Buildings - New Structures!
+Medieval Buildings [End Edition]
+Melody
+Model Gap Fix
+ModernFix
+Moonlight Lib
+More Overlays Updated
+Mouse Tweaks
+MrCrayfish's Furniture Mod: Refurbished
+My Server Is Compatible
+Mystical Agradditions
+Mystical Agriculture
+Nature's Compass
+Necronomicon API
+Noisium
+Not Enough Crashes (Forge)
+Nyf's Spiders
+Oculus
+Oh The Biomes We've Gone
+Oh The Trees You'll Grow
+OpenBlocks Elevator
+Ore Creeper
+Overloaded Armor Bar
+ParCool! ~ Minecraft Parkour ~
+Patchouli
+Platforms
+playerAnimator
+Powah! (Rearchitected)
+Prism [Neo/Forge]
+Puzzles Lib [Forge & Fabric]
+Rechiseled
+Refined Storage
+Refined Storage Addons
+Refined Storage Manual
+Refined Storage: Requestify
+Reliquary Reincarnations
+Resourceful Lib
+Rhino
+Royal Variations
+RSInfinityBooster
+Saturn
+Searchables
+SerializationIsBad
+Server Performance - Smooth Chunk Save[Forge/Fabric]
+ShetiPhianCore
+Shields+
+Simple Discord RPC
+Simple Farming
+Simple Grass Flowers
+Simple Voice Chat
+Simply Swords [Fabric & Forge]
+Sit
+Sky Villages - Supplementaries Compat
+Sky Villages [Forge]
+Snow Under Trees
+Sodium/Embeddium Dynamic Lights
+Sodium/Embeddium Options API
+Sophisticated Backpacks
+Sophisticated Core
+Sophisticated Storage
+spark
+Starter Kit
+STRAYED FATES: Forsaken
+Structory
+Structure Essentials[Forge/Fabric]
+SuperMartijn642's Config Lib
+SuperMartijn642's Core Lib
+Supplementaries
+TerraBlender (Forge)
+Tesseract
+The Twilight Forest
+Thermal Cultivation
+Thermal Dynamics
+Thermal Expansion
+Thermal Foundation
+Thermal Innovation
+Thermal Integration
+Thermal Locomotion
+Titanium
+Torchmaster
+Towers of the Wild Modded
+Trash Cans
+Trimmable Tools
+Visual Workbench [Forge & Fabric]
+Visuality: Reforged
+Void Totem (Forge)
+Waystones
+xali's Enchanted Books
+xali's Potions
+~SCORCHED GUNS 2~ 
