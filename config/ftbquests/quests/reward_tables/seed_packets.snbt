@@ -1,0 +1,16 @@
+{
+	id: "5C1BB5F65D70A3CA"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "simplefarming:fiber_seed_packet" }
+		{ item: "simplefarming:fruit_seed_packet" }
+		{ item: "simplefarming:gourd_seed_packet" }
+		{ item: "simplefarming:grain_seed_packet" }
+		{ item: "simplefarming:leafy_seed_packet" }
+		{ item: "simplefarming:legume_seed_packet" }
+		{ item: "simplefarming:root_seed_packet" }
+		{ item: "simplefarming:tuber_seed_packet" }
+	]
+	title: "Seed Packets"
+}

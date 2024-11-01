@@ -1,0 +1,13 @@
+name = "BM: Potion Amulets"
+filename = "potion_amulets-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9a6261ab5c808cfaa1657cfb3c93da9443f7b693"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5035633
+project-id = 962647

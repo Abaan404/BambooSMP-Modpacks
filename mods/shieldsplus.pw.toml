@@ -1,0 +1,13 @@
+name = "Shields+"
+filename = "Shields+-1.10.2-mc1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "400cad4bc56e3c35e31934f0c314dcc1a2868124"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5736454
+project-id = 646906

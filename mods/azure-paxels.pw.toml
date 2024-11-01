@@ -1,0 +1,13 @@
+name = "Azure Paxels"
+filename = "azure-paxels-neo-1.20.1-1.0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5a36fe87ae3c9f984ba8d8b72d85f8fcbe349138"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5249516
+project-id = 858703

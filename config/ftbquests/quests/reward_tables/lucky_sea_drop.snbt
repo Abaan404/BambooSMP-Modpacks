@@ -1,0 +1,17 @@
+{
+	empty_weight: 3.0f
+	id: "3E38AE2DBD6ED614"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ item: "minecraft:nautilus_shell", weight: 0.5f }
+		{ item: "minecraft:sea_pickle", weight: 0.5f }
+		{ item: "minecraft:sea_lantern", weight: 0.5f }
+		{ item: "minecraft:kelp", weight: 0.5f }
+		{ item: "minecraft:lily_pad", weight: 0.5f }
+		{ item: "minecraft:prismarine_crystals", weight: 0.5f }
+		{ item: "minecraft:prismarine_shard", weight: 0.5f }
+		{ item: "minecraft:scute", weight: 0.5f }
+	]
+	title: "Lucky Sea Drop"
+}

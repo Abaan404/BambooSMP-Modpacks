@@ -1,5 +1,5 @@
 {
-  name = "BambooSMP Modpack Flake";
+  description = "BambooSMP Modpack Flake";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   };

@@ -1,0 +1,13 @@
+name = "Royal Variations"
+filename = "royal_variations_[Forge]_1.20.1_1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8f4e69eae61f00528de95b80556de1494299dbac"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5196062
+project-id = 989611

@@ -1,0 +1,12 @@
+[
+	{
+		"dimension": "minecraft:overworld",
+		"mob": "minecraft:parrot",
+		"mincount": {
+			"amount": 5,
+			"mob": "minecraft:parrot",
+			"perplayer": true
+		},
+		"result": "deny"
+	}
+]

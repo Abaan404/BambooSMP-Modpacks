@@ -1,0 +1,79 @@
+{
+	icon: {
+		Count: 1
+		id: "supplementaries:slingshot"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3F2FB6FBD9DC5C60"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:bubble_blower"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:brush"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:name_tag" }
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:slingshot"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:flute"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:shears"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:rope_arrow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:flint_and_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Cool Gadgets"
+}

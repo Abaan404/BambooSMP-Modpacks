@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "elevator",
+  "pattern": [
+    "WWW",
+    "WEW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:cyan_wool"
+    },
+    "E":{
+      "item": "industrialforegoing:machine_frame_pity"
+	}
+  },
+  "result": {
+    "item": "elevatorid:elevator_cyan"
+  }
+}
+

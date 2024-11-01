@@ -1,0 +1,20 @@
+{
+	id: "5A12041F23E2E358"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "potion_amulets:luck_amulet" }
+		{ item: "potion_amulets:health_amulet" }
+		{ item: "potion_amulets:slow_falling_amulet" }
+		{ item: "potion_amulets:invisibility_amulet" }
+		{ item: "potion_amulets:haste_amulet" }
+		{ item: "potion_amulets:warrior_amulet" }
+		{ item: "potion_amulets:witherless_amulet" }
+		{ item: "potion_amulets:fire_amulet" }
+		{ item: "potion_amulets:night_vision_amulet" }
+		{ item: "potion_amulets:leaping_amulet" }
+		{ item: "potion_amulets:swiftness_amulet" }
+		{ item: "potion_amulets:water_breathing_amulet" }
+	]
+	title: "Potion Amulets"
+}

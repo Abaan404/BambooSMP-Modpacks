@@ -1,0 +1,392 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"bonus_rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 12
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "reliquary:molten_core",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "reliquary:frozen_core",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "reliquary:nebulous_heart",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "reliquary:eye_of_the_storm",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "reliquary:withered_rib",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "reliquary:squid_beak",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "reliquary:zombie_heart",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "reliquary:rib_bone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "reliquary:bat_wing",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "reliquary:chelicerae",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "reliquary:slime_pearl",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 7
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "reliquary:catalyzing_gland",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "reliquary:guardian_spike",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 7
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "reliquary:witch_hat",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"bonus_rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 96
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:interdiction_torch"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:mercy_cross"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:angelheart_vial"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:angelic_feather"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:rending_gale"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:crimson_cloth"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:fertile_lily_pad"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:glowing_water"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:glacial_staff"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:lantern_of_paranoia"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:serpent_staff"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:infernal_tear"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:kraken_shell"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:infernal_chalice"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:harvest_rod"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:ice_magus_rod"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:infernal_claws"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:ender_staff"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:magicbane"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:aphrodite_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:shears_of_winter"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:void_tear"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:witherless_rose"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:salamander_eye"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:pyromancer_staff"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:phoenix_down"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:fortune_coin"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:holy_hand_grenade"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:hero_medallion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:destruction_catalyst"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:midas_touchstone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:rod_of_lyssa"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "reliquary:molten_core"
+				}
+			]
+		}
+	]
+}

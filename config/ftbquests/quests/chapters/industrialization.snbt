@@ -1,0 +1,2849 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrialization"
+	group: ""
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "industrialforegoing:block/froster"
+		}
+	}
+	id: "66837D229DA87A86"
+	images: [
+		{
+			height: 3.0d
+			image: "simplyswords:item/arcanethyst_layer"
+			rotation: -45.0d
+			width: 3.0d
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			height: 3.0d
+			image: "simplyswords:item/arcanethyst_layer"
+			rotation: 135.0d
+			width: 3.0d
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			height: 3.0d
+			image: "simplyswords:item/arcanethyst_layer"
+			rotation: 45.0d
+			width: 3.0d
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			height: 3.0d
+			image: "simplyswords:item/arcanethyst_layer"
+			rotation: -135.0d
+			width: 3.0d
+			x: 9.5d
+			y: 11.5d
+		}
+		{
+			alpha: 50
+			color: 16733525
+			height: 6.0d
+			image: "twilightforest:block/castle_door_rune_corners"
+			rotation: 0.0d
+			width: 0.8d
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			alpha: 50
+			color: 5635925
+			height: 6.0d
+			image: "twilightforest:block/castle_door_rune_corners"
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			alpha: 50
+			color: 5636095
+			height: 6.0d
+			image: "twilightforest:block/castle_door_rune_corners"
+			rotation: 0.0d
+			width: 0.8d
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			alpha: 50
+			color: 16755200
+			height: 6.0d
+			image: "twilightforest:block/castle_door_rune_corners"
+			rotation: 0.0d
+			width: 0.8d
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			alpha: 50
+			color: 16765083
+			height: 6.0d
+			image: "twilightforest:block/castle_door_rune_corners"
+			rotation: 0.0d
+			width: 0.8d
+			x: -1.0d
+			y: 8.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["43D18E582E01FF4F"]
+			description: [
+				"The &dSimple Alloy Smelter&r can only make alloys and &ncannot&r be used as a vanilla furnace."
+				""
+				"&eDark Steel&r will be one of your first alloys."
+			]
+			id: "5CE9CBEF0173F471"
+			rewards: [
+				{
+					count: 3
+					id: "44B04B59FC56D892"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "4A57ADCF1A0FC056"
+					item: {
+						Count: 1
+						id: "immersive_melodies:trumpet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BCA7EC16A0D098E"
+				item: "enderio:primitive_alloy_smelter"
+				only_from_crafting: true
+				title: "Craft a Primitive Alloy Smelter"
+				type: "item"
+			}]
+			title: "First Alloys"
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5CE9CBEF0173F471"]
+			description: [
+				"Uses &bcoal&r to &cproduce power&r at a rate of 20 µI/t."
+				""
+				"&dUpgrade EnderIO machines&r with better &bcapacitors&r to increase speed and energy storage."
+			]
+			id: "0A181CA093C30E50"
+			rewards: [{
+				id: "7F225A5538A0AF07"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A11B635363032E5"
+				item: "enderio:stirling_generator"
+				only_from_crafting: true
+				title: "Craft a Stirling Generator"
+				type: "item"
+			}]
+			title: "Redstone Energy?"
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0A181CA093C30E50"]
+			description: [
+				"Crushes items."
+				"Used for &dore doubling&r and as a crafting process."
+				""
+				"The right slot in the GUI is for &bGrinding Balls&r, which boost output and adjust power usage."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&bGrinding Balls&r are consumed on &nfirst use&r and must be fully used before replacement."
+				""
+				"They are &dspecific to certain recipes&r based on their bonus type."
+			]
+			id: "1422281EE0902ECA"
+			rewards: [{
+				count: 5
+				id: "1CE5054FC4573A79"
+				item: "refinedstorage:silicon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52208E3C6249F797"
+				item: "enderio:sag_mill"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2BCDC315B1D8BE21"]
+			description: [
+				"Hold some &bFlint in your offhand&r and some &bDeepslate&r in your main hand."
+				""
+				"Then &bshift right-click Obsidian&r, or a &bGrindstone&r to produce early &eGrains of Infinity&r."
+				""
+				"{@pagebreak}"
+				"Otherwise smelt &bMagma Blocks&r in a Furnace for &eGrains of Infinity&r."
+			]
+			icon: "enderio:grains_of_infinity"
+			id: "43D18E582E01FF4F"
+			rewards: [
+				{
+					id: "20D62D6BB4246BB7"
+					item: "enderio:basic_capacitor"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3FA9DD2229E59F5B"
+					item: "enderio:stone_gear"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "How to get Grains of Infinity"
+			tasks: [{
+				id: "76E2567EBC82970C"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			title: "Grains of Infinity"
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1422281EE0902ECA"]
+			description: [
+				"Used to create &eEnderIO alloys&r, this machine also functions as a &dpowered furnace&r that can process up to three items simultaneously."
+				""
+				"A button in the GUI allows you to limit it to one operation type."
+			]
+			id: "245ED80568207C98"
+			rewards: [
+				{
+					id: "5FBE6BFE94BB2F88"
+					item: "powah:book"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5629A222C4DA2411"
+					item: "powah:dielectric_paste"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01A08235B69FECDD"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["71F563E6BE4EA3C8"]
+			id: "14823777C4C8C6D2"
+			invisible: true
+			optional: true
+			rewards: [{
+				count: 16
+				id: "734FE741AEA017CB"
+				item: "industrialforegoing:conveyor"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "77FB746CA7C7E789"
+					item: {
+						Count: 1
+						id: "immersive_armors:steampunk_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08DBD9D2E3EFAD76"
+					item: {
+						Count: 1
+						id: "immersive_armors:steampunk_chestplate"
+						tag: {
+							Damage: 0
+							capeAngles: {
+								capeX: 0.0d
+								capeY: 0.0d
+								capeZ: 0.0d
+								lastTickDelta: 1.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C17F638D24561FB"
+					item: {
+						Count: 1
+						id: "immersive_armors:steampunk_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2817231FAA31E40B"
+					item: {
+						Count: 1
+						id: "immersive_armors:steampunk_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Steampunker"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["245ED80568207C98"]
+			id: "71F563E6BE4EA3C8"
+			rewards: [{
+				count: 8
+				id: "6A63EE937FCF3CC3"
+				item: "enderio:dark_steel_grinding_ball"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "450DB7449AA8CE7A"
+					item: "enderio:copper_alloy_ingot"
+					title: "Get Copper Alloy"
+					type: "item"
+				}
+				{
+					id: "69FCCDD8ADB88650"
+					item: "enderio:redstone_alloy_ingot"
+					title: "Get Redstone Alloy"
+					type: "item"
+				}
+			]
+			title: "Time for some Alloys!"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["762907DEB5F4D1A9"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Extract &eLatex&r from &bLogs&r."
+				""
+				"&dPower triples Latex Production&r."
+			]
+			id: "0F57D63BA63C48FE"
+			rewards: [
+				{
+					count: 6
+					id: "28322E8F9BE60F22"
+					item: "enderio:conduit_binder"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "05BAB36D3A2D55D2"
+					item: "enderio:clear_glass"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3572697B8B604A52"
+					item: "industrialforegoing:fluid_extractor"
+					only_from_crafting: true
+					title: "Craft a Fluid Extractor"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: "minecraft:oak_log"
+					id: "10B8BE7A31C0C766"
+					observe_type: 1
+					timer: 0L
+					title: "Place Log next to the Extractor"
+					to_observe: "minecraft:logs"
+					type: "observation"
+				}
+			]
+			title: "Getting Latex"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"06335D65CA969AB6"
+				"0F57D63BA63C48FE"
+			]
+			description: [
+				"The Latex Processing Unit uses &benergy&r, &blatex&r, and &bwater&r to produce &edry rubber&r."
+				""
+				"&dDry rubber can be smelted into plastic&r."
+			]
+			id: "532FF7683F4F789C"
+			rewards: [{
+				id: "100A3CDFF783A830"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BFB484960896048"
+				item: "industrialforegoing:latex_processing_unit"
+				only_from_crafting: true
+				title: "Craft a Latex Processing Unit"
+				type: "item"
+			}]
+			title: "Rubber Production"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2BCDC315B1D8BE21"]
+			description: ["The Pitiful Generator uses any &bfurnace fuel&r to &cgenerate power&r, while the EnderIO Stirling Generator requires &bcoal&r but offers &dupgrade options&r."]
+			id: "762907DEB5F4D1A9"
+			rewards: [
+				{
+					count: 3
+					id: "2F7A2938DD6E5334"
+					item: "minecraft:obsidian"
+					title: "Craft a Pitiful Generator"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "51D8E118A38F6F26"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Only one Task required"
+			tasks: [
+				{
+					id: "667264892EA299B0"
+					item: "industrialforegoing:pitiful_generator"
+					only_from_crafting: true
+					title: "Craft a Pitiful Generator"
+					type: "item"
+				}
+				{
+					id: "5DC64F3471546813"
+					item: "enderio:stirling_generator"
+					title: "Craft a Stirling Generator"
+					type: "item"
+				}
+			]
+			title: "Time for some Energy!"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["71F563E6BE4EA3C8"]
+			description: [
+				"Conduits are your EnderIO &cenergy cables&r and &aitem&r/&bfluid pipes&r."
+				""
+				"These can be placed together in one block space for improved management."
+				""
+				"{@pagebreak}"
+				""
+				"To ensure no issues, &dconfigure Insert/Extract&r by rightclicking the conduit endings."
+				""
+				"Don't forget to set up your Redstone mode properly."
+			]
+			id: "2B3FB9C73E7F302D"
+			rewards: [{
+				id: "6AEB59B2ABF334AF"
+				item: "enderio:vacuum_chest"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "7F1A1B0F4D2B66C9"
+					item: "enderio:energy_conduit"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6F29410CE68D4B04"
+					item: "enderio:item_conduit"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 16L
+					id: "3DDAD27A5DB6BA76"
+					item: "enderio:ender_fluid_conduit"
+					type: "item"
+				}
+			]
+			title: "First Conduits"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["532FF7683F4F789C"]
+			description: [
+				"The Mob Slaughter Factory processes &bmobs&r into &eLiquid Meat&r and &ePink Slime&r."
+				""
+				"Mobs killed by this machine will not drop items or experience."
+			]
+			id: "5181228EA88BBFAA"
+			rewards: [{
+				id: "46BBF345B4218C0F"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			tasks: [{
+				id: "694F4BC538766892"
+				item: "industrialforegoing:mob_slaughter_factory"
+				only_from_crafting: true
+				title: "Craft a Mob Slaughter Factory"
+				type: "item"
+			}]
+			title: "Pink Slime Production"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5181228EA88BBFAA"]
+			description: ["This powerful machine crafts &enew materials&r using up to &b8 items&r and/or &ba fluid&r, producing both items and fluids with &dshapeless recipes&r."]
+			id: "04FDC831BCF7350C"
+			rewards: [{
+				id: "56B4D16A356B4ED2"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29BFBB76D0B5455F"
+				item: "industrialforegoing:dissolution_chamber"
+				only_from_crafting: true
+				title: "Craft a Dissolution Chamber"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["301D1A159F5CE7D1"]
+			description: [
+				"This machine kills mobs as if a player would, producing &edrops&r and &aEssence&r directly from the mob's loot pool."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"It also has an &dalternate mode&r that, instead of generating Essence, produces drops with &erandom levels of Fortune&r."
+			]
+			id: "1164543FFC9BAA03"
+			rewards: [{
+				id: "22D74A8516E4952A"
+				item: "trashcans:item_trash_can"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1128454FE7DF7421"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			title: "Mob Farming"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["245ED80568207C98"]
+			description: [
+				"The Drain collects Fluid Source Blocks underneath it."
+				""
+				"Build a min &b2x2 Infinite Water Source&r and collect Water for Machines."
+			]
+			id: "06335D65CA969AB6"
+			rewards: [{
+				id: "74B884CBDF6434AA"
+				item: "reliquary:emperor_chalice"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EE2EFD2FC38483F"
+				item: "enderio:drain"
+				only_from_crafting: true
+				title: "Craft a Drain"
+				type: "item"
+			}]
+			title: "Water pumping?"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"78974CB2C9B025FD"
+				"4588730A920C2B40"
+			]
+			id: "3915DC587B4B41B9"
+			rewards: [{
+				id: "4EB61B13F9F01CA4"
+				item: "powah:energy_cell_creative"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "4ABEF7AA841D47A0"
+					item: "powah:energy_cell_nitro"
+					title: "Submit Nitro Energy Cell"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "29082EBF5F6C5CFE"
+					item: "enderio:sentient_ender"
+					title: "Submit Sentient Ender"
+					type: "item"
+				}
+			]
+			title: "Infinite Energy"
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["53E48B666C8025F5"]
+			id: "78974CB2C9B025FD"
+			rewards: [{
+				id: "452EA0BC00B77F05"
+				item: "refinedstorageaddons:creative_wireless_crafting_grid"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "480547650DFDD7D5"
+					item: "rsinfinitybooster:infinity_card"
+					title: "Submit Infinity Range Boosters"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "313CA39812E7F5EE"
+					item: "enderio:guardian_diode"
+					title: "Submit Guardian Diode"
+					type: "item"
+				}
+			]
+			title: "Powerless Wireless Crafting Grid"
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["507B4E80AD008D8D"]
+			description: [
+				"Craft 36 Reactor Blocks."
+				""
+				"Place one block, and the reactor will automatically assemble itself in a 3x3x4 area."
+			]
+			id: "340A054C66C9E742"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CCD827EA86BFFB2"
+					table_id: 2972118517222002424L
+					type: "choice"
+				}
+				{
+					count: 7
+					id: "33BA6E2652C1E8E3"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 36L
+				id: "136B7ED27DAF4729"
+				item: "powah:reactor_starter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["340A054C66C9E742"]
+			id: "311F63767C08823F"
+			rewards: [
+				{
+					icon: "minecraft:music_disc_mall"
+					id: "6239AFE85ECE1D37"
+					table_id: 2492547063038239977L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "223AE58382AB8DEF"
+					item: "powah:capacitor_blazing"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 36L
+				id: "12CB9C0257AA93ED"
+				item: "powah:reactor_basic"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["08CD545A8050CDB4"]
+			id: "528374EE9B6FE381"
+			rewards: [
+				{
+					count: 9
+					id: "27C982874DA822F5"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0208848EADDED4DE"
+					item: "enderio:grains_of_infinity"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 36L
+				id: "00ABFE0DBF602D4B"
+				item: "powah:reactor_hardened"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["307C469A624E787A"]
+			id: "068346715183549B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "701A04AA41A6A9BE"
+				table_id: 5293772826727693949L
+				type: "random"
+			}]
+			tasks: [{
+				count: 36L
+				id: "568AF134A6414D51"
+				item: { Count: 36, id: "powah:reactor_niotic" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"068346715183549B"
+				"1164543FFC9BAA03"
+			]
+			id: "5ADA009C239C1584"
+			rewards: [
+				{
+					count: 5
+					id: "6421F2A088C6A832"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "industrialforegoing:laser_lens8"
+					id: "1D364A72354D27A2"
+					table_id: 947170654226490758L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				count: 36L
+				id: "0A427C051BF1C31F"
+				item: { Count: 36, id: "powah:reactor_spirited" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5ADA009C239C1584"
+				"0F981C575D6560EA"
+			]
+			id: "20412D5612F4B486"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DFBCB29D6223D10"
+				table_id: 5293772826727693949L
+				type: "random"
+			}]
+			tasks: [{
+				count: 36L
+				id: "02E52ACC50324162"
+				item: "powah:reactor_nitro"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["311F63767C08823F"]
+			description: [
+				"Place &bitem(s)&r in the &dEnergizing Orb&r to infuse them with energy to craft new items."
+				""
+				"The Orb receives its &benergy&r from &dEnergizing Rods&r."
+			]
+			id: "08CD545A8050CDB4"
+			rewards: [{
+				count: 3
+				id: "1446A3F4A9F54229"
+				item: "minecraft:quartz_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "39B321A259C8005B"
+					item: "powah:energizing_orb"
+					type: "item"
+				}
+				{
+					id: "365934B2C2E5A636"
+					item: "powah:energizing_rod_starter"
+					type: "item"
+				}
+			]
+			title: "Energized Crafting"
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["528374EE9B6FE381"]
+			id: "307C469A624E787A"
+			rewards: [
+				{
+					id: "71222C307965B3CA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5A186C43EC10310B"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 36L
+				id: "521A0EB11ED5BF11"
+				item: { Count: 36, id: "powah:reactor_blazing" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1164543FFC9BAA03"]
+			id: "0F981C575D6560EA"
+			rewards: [
+				{
+					count: 18
+					id: "72D17E9F7C22FBC6"
+					item: "enderio:reinforced_obsidian_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "industrialforegoing:laser_lens8"
+					id: "2EE7D33AD195311A"
+					table_id: 947170654226490758L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "025E463FA67ED4EE"
+				item: "industrialforegoing:wither_builder"
+				type: "item"
+			}]
+			title: "Wither Farming!"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B3FB9C73E7F302D"]
+			description: ["It \"slices\" and \"splices\" &bheads&r and &bother items&r into &enew items&r."]
+			id: "037D4E857F331F33"
+			rewards: [{
+				count: 3
+				id: "1CDC13940DCA7C5B"
+				item: "minecraft:skeleton_skull"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49BBD565B7244896"
+				item: "enderio:slice_and_splice"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["037D4E857F331F33"]
+			description: [
+				"Soul Binder are ideal for &eBroken Ore Creeper Spawner&r."
+				""
+				"These can be crafted into &dPowered Spawner&r and create massive farms."
+			]
+			id: "6509245B17401B3E"
+			rewards: [
+				{
+					id: "124A6D7E61EB891F"
+					item: "enderio:empty_soul_vial"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								SelectedSlot: 0
+								Size: 6
+							}
+						}
+						id: "supplementaries:quiver"
+					}
+					id: "091181417B65CFF1"
+					table_id: 4553058941103004768L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "4C7A38638894CFAF"
+				item: "enderio:soul_binder"
+				only_from_crafting: true
+				title: "Craft a Soul Binder"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04FDC831BCF7350C"]
+			description: [
+				"The &eOre Laser Base&r produces ores once charged by &bLaser Drills&r."
+				""
+				"The Laser Drill must be pointed at the Ore Laser Base to transfer its power."
+				""
+				"{@pagebreak}"
+				""
+				"&dLaser lenses&r increase the likelihood of specific ores being produced."
+			]
+			id: "6E33A4163A2B9EC6"
+			rewards: [
+				{
+					icon: "industrialforegoing:laser_lens8"
+					id: "0A619D587185A822"
+					table_id: 947170654226490758L
+					type: "random"
+				}
+				{
+					id: "55807A75CFB76ECD"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "240820C16E36AA03"
+					item: "industrialforegoing:ore_laser_base"
+					type: "item"
+				}
+				{
+					id: "5033F44FED631EC2"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+			]
+			title: "Unlimited Ores?"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2BCDC315B1D8BE21"]
+			description: ["Essential items for many Industrial Foregoing crafting recipes."]
+			id: "4B1EB76265470DB2"
+			rewards: [
+				{
+					count: 3
+					id: "3793E76685FA96B2"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+				{
+					id: "32445B8E75B47306"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+				{
+					id: "134F5C0CCEEBE312"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "refstoragemanual:guide"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 16L
+					id: "639CA7F3ECE804E9"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+				{
+					id: "318DFEFE27272E2D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:silicon"
+						}
+					}
+					title: "Any #forge:silicon"
+					type: "item"
+				}
+				{
+					id: "60B85FFB85577175"
+					item: "refinedstorage:raw_advanced_processor"
+					type: "item"
+				}
+			]
+			title: "Refined Storage Basics"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B1EB76265470DB2"]
+			description: [
+				"The Controller requires &cenergy&r,"
+				""
+				"To set up a basic &eME system&r, place a &bCrafting Grid&r and &bDisk Drive&r including a &dStorage Disk&r next to it, or connect these blocks with Industrial Foregoing &bcables.&r"
+			]
+			id: "0F522822AE2DB825"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					icon: "refinedstorage:brown_crafting_grid"
+					id: "1E9419F854085DD9"
+					table_id: 4499459694774873455L
+					type: "choice"
+				}
+				{
+					count: 12
+					id: "00F4595C440FAD34"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "23CB31A057D3B7F1"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34C301CBFCE1D4BA"
+					item: "refinedstorage:controller"
+					only_from_crafting: true
+					title: "Craft a Controller"
+					type: "item"
+				}
+				{
+					id: "17AEDD449592BE68"
+					item: "refinedstorage:crafting_grid"
+					only_from_crafting: true
+					title: "Craft a Crafting Grid"
+					type: "item"
+				}
+				{
+					id: "2E74E42BFEB08844"
+					item: "refinedstorage:disk_drive"
+					only_from_crafting: true
+					title: "Craft a Disk Drive"
+					type: "item"
+				}
+			]
+			title: "ME System"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71F075300A4A5E70"]
+			id: "41483D55C110CD81"
+			rewards: [
+				{
+					count: 4
+					id: "5BBAA44994BAC8F2"
+					item: "extrastorage:netherite_crafter"
+					type: "item"
+				}
+				{
+					id: "75C743560D9F2160"
+					item: "rsinfinitybooster:infinity_card"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0A0C2D00B4F0BB3C"
+					item: "refinedstorage:64k_storage_disk"
+					type: "item"
+				}
+				{
+					id: "0A4E1E2CCFEF6361"
+					item: "extrastorage:disk_4096k"
+					type: "item"
+				}
+				{
+					id: "32070761111A0F10"
+					item: {
+						Count: 1
+						id: "extradisks:262144k_storage_disk"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Too much Storage"
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"0F522822AE2DB825"
+				"6E33A4163A2B9EC6"
+			]
+			description: [
+				"Have a &bConstructor&r place an Ore Block and a &eDestructor&r break it for Raw Ores."
+				""
+				"Then, add &dFortune Addons&r to boost your ore production."
+			]
+			id: "64F4ADA5B532BF79"
+			rewards: [
+				{
+					id: "00471461D7B0BB0F"
+					item: "refinedstorage:fortune_1_upgrade"
+					type: "item"
+				}
+				{
+					id: "1E16150FBEA4BF4C"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "12242FD73BC3A34D"
+					item: "refinedstorage:constructor"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "49BD7A89DDAC7E4A"
+					item: "refinedstorage:destructor"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"20412D5612F4B486"
+				"010E8F22BD7AE3E3"
+				"1E3E79830D4DF253"
+				"41483D55C110CD81"
+				"76858D70EB75C312"
+			]
+			id: "53E48B666C8025F5"
+			rewards: [
+				{
+					id: "30A8CE232572F972"
+					item: "refinedstorage:creative_controller"
+					type: "item"
+				}
+				{
+					id: "26673C87926A90AD"
+					item: "rsinfinitybooster:dimension_card"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "51FDD996BCEEC088"
+					item: "extradisks:infinite_storage_part"
+					title: "Submit Infinite Storage Part"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1FC1584280BCB8EB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "refinedstorage:controller"
+						}
+					}
+					title: "Submit Controller"
+					type: "item"
+				}
+			]
+			title: "Powerless ME"
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0BA6ECBFD9A148BA"]
+			description: ["Use the &bPattern Grid&r to create  specific Patterns, then place these &econfigured Patterns&r inside &bAuto Crafters&r."]
+			id: "71F075300A4A5E70"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					icon: "refinedstorage:pink_crafting_monitor"
+					id: "172217388F531589"
+					table_id: 4949761856544106108L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A30F42918FF0D27"
+					table_id: 5293772826727693949L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "052ADDA4797FE646"
+					item: "refinedstorage:pattern_grid"
+					type: "item"
+				}
+				{
+					id: "079E42E61DFBEDBC"
+					item: "refinedstorage:crafter"
+					type: "item"
+				}
+			]
+			title: "Auto Crafting"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6509245B17401B3E"]
+			description: ["By &cconsuming power&r and &bliquid experience&r, it can change the type of &eBroken Spawner&r by binding it with a filled Soul Vial."]
+			id: "466E61DA64CF5FBA"
+			rewards: [{
+				id: "28D46C62D741D0CC"
+				item: "enderio:vibrant_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03298B5FB6F906D3"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				only_from_crafting: true
+				title: "Craft a Powered Spawner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0F522822AE2DB825"]
+			id: "0BA6ECBFD9A148BA"
+			rewards: [
+				{
+					count: 16
+					id: "3FC19E91A45A5A43"
+					item: "refinedstorage:pattern"
+					type: "item"
+				}
+				{
+					id: "195C71A6433C6C65"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "385B9BAA968F8B61"
+					item: "refinedstorage:64k_storage_part"
+					type: "item"
+				}
+				{
+					id: "66C7F50E3F25E33C"
+					item: "refinedstorage:4096k_fluid_storage_part"
+					type: "item"
+				}
+			]
+			title: "Enough space for now!"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["04FDC831BCF7350C"]
+			description: ["Addons are upgrades for &dIndustrial Foregoing machines&r that improve &cpower efficiency&r, &3speed&r, and &6work capacity&r."]
+			id: "301D1A159F5CE7D1"
+			rewards: [{
+				id: "40CE7FAE968B87F3"
+				item: {
+					Count: 1
+					id: "industrialforegoing:range_addon3"
+					tag: {
+						TitaniumAugment: {
+							Range: 3.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1635B68796DBACD0"
+					item: {
+						Count: 1
+						id: "industrialforegoing:speed_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "511C16DC01577495"
+					item: {
+						Count: 1
+						id: "industrialforegoing:efficiency_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.8f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "081D845758092B77"
+					item: {
+						Count: 1
+						id: "industrialforegoing:processing_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Processing: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Make it Faster!"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CB812F30AA4E65F"]
+			id: "1E3E79830D4DF253"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FA7B21CEBFE1000"
+				table_id: 6490254544786875224L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E0690054D7D35E2"
+				item: "powah:solar_panel_nitro"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4D3919F5B45D1C43"]
+			id: "4CB812F30AA4E65F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1441A1035106E38F"
+					table_id: 2972118517222002424L
+					type: "choice"
+				}
+				{
+					icon: "minecraft:music_disc_stal"
+					id: "4608B2A188B0EB0B"
+					table_id: 2492547063038239977L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "53EDF6E81AEC56BF"
+				item: "powah:solar_panel_spirited"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5893A0A9472BF7D8"]
+			id: "4D3919F5B45D1C43"
+			rewards: [
+				{
+					count: 2
+					id: "043FEB04769C379C"
+					item: "draconicevolution:draconium_dust"
+					type: "item"
+				}
+				{
+					icon: "minecraft:wild_armor_trim_smithing_template"
+					id: "0A6A2B951D57FE9D"
+					table_id: 1154677657677219077L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "55D8A952209E8D9C"
+				item: "powah:solar_panel_niotic"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4423DF742C5113E7"]
+			id: "5893A0A9472BF7D8"
+			rewards: [
+				{
+					id: "156CEF043B749A71"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "352D0A649AD5852D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4EC18A5490980CA7"
+				item: "powah:solar_panel_blazing"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["08CD545A8050CDB4"]
+			id: "4423DF742C5113E7"
+			rewards: [
+				{
+					id: "7F92061B4B64872F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								SelectedSlot: 0
+								Size: 6
+							}
+						}
+						id: "supplementaries:quiver"
+						tag: { }
+					}
+					id: "26B4B8F2BC9EFFBA"
+					table_id: 4553058941103004768L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "11B3BCC5DCA0CAA8"
+				item: "powah:solar_panel_hardened"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0F21FF3F289C8D2A"]
+			id: "010E8F22BD7AE3E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48A9273762351BC0"
+				table_id: 5293772826727693949L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F83D2FDF6FFF1A7"
+				item: "powah:energy_cell_nitro"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["01FE81A1F9A876A1"]
+			id: "0F21FF3F289C8D2A"
+			rewards: [
+				{
+					id: "11A6E280B4192964"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "64366315E77AD8BC"
+					item: {
+						Count: 1
+						id: "powah:battery_blazing"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4FEB18338807FAC6"
+				item: "powah:energy_cell_spirited"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["133D2217167BFB68"]
+			id: "01FE81A1F9A876A1"
+			rewards: [
+				{
+					count: 6
+					id: "066C58756732160C"
+					item: "enderio:vibrant_alloy_grinding_ball"
+					type: "item"
+				}
+				{
+					id: "6B1393D80FB73ED8"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BE0A33ED0095211"
+				item: "powah:energy_cell_niotic"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4D4A99E77BF92926"]
+			id: "133D2217167BFB68"
+			rewards: [{
+				count: 9
+				id: "488A7D59B43342D7"
+				item: "powah:uraninite"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E648A7F1C6DB109"
+				item: "powah:energy_cell_blazing"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["08CD545A8050CDB4"]
+			description: ["Energy storage by Powah!."]
+			id: "4D4A99E77BF92926"
+			rewards: [
+				{
+					id: "52E9D4982DA15292"
+					item: "torchmaster:megatorch"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3450CD4F490A5A0F"
+					table_id: 2791265835494950289L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "3E2EE9A39260BBEE"
+				item: "powah:energy_cell_hardened"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7EAE1F8A748A7243"]
+			id: "05A93496379FB49C"
+			rewards: [
+				{
+					id: "0D901FD52FDD6B8C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1487603E03A17664"
+					item: {
+						Count: 1
+						id: "powah:battery_starter"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6EAF2C84A5CD137F"
+				item: "powah:energizing_rod_hardened"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["05A93496379FB49C"]
+			id: "71D2305297D5154B"
+			rewards: [
+				{
+					count: 2
+					id: "69625575E8062F7A"
+					item: "simplefarming:golden_habanero"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "410BEF47A21A94A3"
+					item: {
+						Count: 1
+						id: "fairylights:pennant_bunting"
+						tag: {
+							color: 16701501
+							pattern: [{
+								Count: 1b
+								id: "fairylights:triangle_pennant"
+								tag: {
+									color: 16701501
+								}
+							}]
+							text: {
+								styling: [I; ]
+								value: ""
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1473D38F336952C8"
+				item: "powah:energizing_rod_blazing"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71D2305297D5154B"]
+			id: "66CE355B2DBD43FB"
+			rewards: [{
+				count: 3
+				id: "7EE254F523EFD985"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D7A15D87B34A5C1"
+				item: "powah:energizing_rod_niotic"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["66CE355B2DBD43FB"]
+			id: "1890AB1442CB7219"
+			rewards: [{
+				count: 12
+				id: "446DEF217D318981"
+				item: "enderio:dark_steel_grinding_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E0ACA9C9ABE66B4"
+				item: "powah:energizing_rod_spirited"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1890AB1442CB7219"]
+			id: "4B677FA617316A36"
+			rewards: [
+				{
+					count: 5
+					id: "5F65229C944318B5"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+				{
+					id: "329D8C1DB09AFFCC"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "149C10B6FF72CE59"
+				item: "powah:energizing_rod_nitro"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["08CD545A8050CDB4"]
+			id: "7EAE1F8A748A7243"
+			rewards: [
+				{
+					count: 3
+					id: "0750FC34C42476DC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "125E51F59FEA7D3D"
+					item: "simplefarming:sprinkle_cake"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5FBB437639C79AC1"
+				item: "powah:energizing_rod_basic"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["06335D65CA969AB6"]
+			description: ["It is used to produce &evarious stone types&r and &eclay&r, with &benergy&r, &bwater&r and &blava&r usage varying by recipe."]
+			id: "3D286618288D3D18"
+			optional: true
+			rewards: [
+				{
+					count: 64
+					id: "692831F4BD7A93D2"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "66E9FF355616A902"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "71C9FD0442DD2306"
+					item: "minecraft:deepslate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A116219AB58B47B"
+				item: "industrialforegoing:material_stonework_factory"
+				only_from_crafting: true
+				title: "Craft a Material Stonework Factory"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F67882DF224DCB3"]
+			id: "76858D70EB75C312"
+			rewards: [
+				{
+					count: 16
+					id: "6BCD2CE9DA4746D6"
+					item: "enderio:end_steel_grinding_ball"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47231E76CC6D6CB6"
+					table_id: 5293772826727693949L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3C2A027E52F3250B"
+				item: "fluxnetworks:gargantuan_flux_storage"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7F557D82F7221635"]
+			description: [
+				"Required to activate &dCross-dimensional&r &dinventory charging&r."
+				""
+				"Inventory charging can be configured in the Wireless Charging Tab."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&dOnly one controller&r can be connected to a network at one time."
+				""
+				"The controller's '&nOutput&r' refers to &cenergy outputted&r from the network via Wireless Charging."
+				""
+				"&eFlux Network's do not require a Flux Controller to operate&r."
+			]
+			id: "3AECFEDD0EFB9D9C"
+			rewards: [
+				{
+					count: 4
+					id: "4DDEBE22EE87586B"
+					item: "fluxnetworks:flux_core"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "51A201EBB2E28B96"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32E169C963FC23F6"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["103AA33AE9A749BD"]
+			description: [
+				"&e&lFlux Plug&r&r"
+				"Takes energy from your power source, and add it to your &dFlux Network&r."
+				""
+				"&e&lFlux Point&r&r"
+				"Provides Energy&r to connected Blocks."
+			]
+			id: "7F557D82F7221635"
+			rewards: [
+				{
+					id: "26389B5AEE25DE3F"
+					item: "reliquary:infernal_chalice"
+					type: "item"
+				}
+				{
+					icon: "industrialforegoing:laser_lens8"
+					id: "31A6E504314C5F10"
+					table_id: 947170654226490758L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "53F6E9B1AB7556FF"
+					item: "fluxnetworks:flux_plug"
+					only_from_crafting: true
+					title: "Craft a Flux Plug"
+					type: "item"
+				}
+				{
+					id: "749E4460AD9E76B3"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			title: "Interdimensional Energy"
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2BCDC315B1D8BE21"]
+			description: [
+				"Smelt &bObsidian&r to &eFlux Dust&r."
+				""
+				"A Material Stonework Factory for Obsidian production can be helpful."
+			]
+			id: "103AA33AE9A749BD"
+			rewards: [
+				{
+					count: 4
+					id: "21CB8B70D7B5BCEC"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B3720D017BE321B"
+					table_id: 2791265835494950289L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "4B75A253F0F6823B"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			title: "Flux, Flux, Flux!"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7AF34FBFE7DFB406"]
+			id: "5F67882DF224DCB3"
+			rewards: [
+				{
+					count: 5
+					id: "255F6438572C4E58"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "minecraft:silence_armor_trim_smithing_template"
+					id: "44A884F31818DC39"
+					table_id: 1154677657677219077L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "633A5438450DA416"
+				item: "fluxnetworks:herculean_flux_storage"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3AECFEDD0EFB9D9C"]
+			description: ["Stores &cenergy&r for your &eFlux Network&r."]
+			id: "7AF34FBFE7DFB406"
+			rewards: [{
+				count: 2
+				id: "6F5517743417E38B"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			tasks: [{
+				id: "128E7249E8113196"
+				item: "fluxnetworks:basic_flux_storage"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["103AA33AE9A749BD"]
+			description: ["Tesseracts are interdimensional transporters for &aitems&r, &cenergy&r, and &3fluids&r."]
+			id: "64201174F4C319E7"
+			rewards: [{
+				id: "01FB2C7E51CB05D6"
+				item: "fluxnetworks:flux_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "55EF105DF7078673"
+				item: "tesseract:tesseract"
+				title: "Craft 2x Tesseract"
+				type: "item"
+			}]
+			title: "Interdimensional Transport"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["133F9B8EBFF9BD21"]
+			description: ["&bDielectric Paste&r and &bCapacitors&r are essential components for many Powah crafting recipes."]
+			id: "507B4E80AD008D8D"
+			rewards: [
+				{
+					count: 4
+					id: "255878C6016C520D"
+					item: "powah:capacitor_basic_tiny"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7A5C3DF114DCA4D2"
+					item: "powah:capacitor_basic_large"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5F92DE625E3A8A7B"
+					item: { Count: 8, id: "powah:dielectric_paste" }
+					type: "item"
+				}
+				{
+					id: "5F4FD23843A1D06A"
+					item: "powah:capacitor_basic"
+					type: "item"
+				}
+			]
+			title: "Big and Small Capacitors!"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2BCDC315B1D8BE21"]
+			description: [
+				"Uraninite is the only non-vanilla ore in the &dOverworld&r."
+				""
+				"To find larger quantities, explore the End dimension for &eUraninite Ore Geodes&r."
+			]
+			id: "133F9B8EBFF9BD21"
+			rewards: [
+				{
+					count: 2
+					id: "0D2DFEAC27387A47"
+					item: "reliquary:molten_core"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "791C88B2B37CA7E6"
+					item: "minecraft:iron_bars"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 16L
+				id: "6B1D0415499D0A6F"
+				item: "powah:uraninite"
+				type: "item"
+			}]
+			title: "Uraninite"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["466E61DA64CF5FBA"]
+			description: [
+				"A common mistake is using the &nwrong Soul Vial&r when binding a &eBroken Spawner&r."
+				""
+				"This is your second chance."
+			]
+			id: "0989047F760D4202"
+			optional: true
+			rewards: [
+				{
+					id: "518534F1959C26A1"
+					item: "enderio:z_logic_controller"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "57751757191BBAB3"
+					item: "enderio:vibrant_crystal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "15A16246724B7F6A"
+					item: "enderio:soularium_ingot"
+					type: "item"
+				}
+				{
+					id: "189A3E498C4FA234"
+					item: "enderio:ensouled_chassis"
+					type: "item"
+				}
+			]
+			subtitle: "Get a second chance"
+			tasks: [{
+				consume_items: true
+				id: "6585A5B3A1BF30EC"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "It was the wrong one!"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5181228EA88BBFAA"]
+			description: [
+				"This machine requires &3water,&r &cenergy&r and some &abio waste&r to &eproduces biofuel&r."
+				""
+				"Use the biofuel in a Biofuel reactor to produce energy!"
+			]
+			id: "2C6B1572BE5E1086"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AECB6614F18B68F"
+				table_id: 6637098545594803146L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1375BA8F9C8992A2"
+				item: "industrialforegoing:bioreactor"
+				type: "item"
+			}]
+			title: "Biofuels!"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C6B1572BE5E1086"]
+			description: ["This machine converts &bbiofuel&r to &eenergy&r."]
+			id: "736A26B33C0C14A9"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D7C7EF064003CD4"
+					table_id: 5293772826727693949L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "6929475267348F06"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			subtitle: "This machine converts biofuel to energy"
+			tasks: [{
+				id: "45F70233E80B0700"
+				item: "industrialforegoing:biofuel_generator"
+				type: "item"
+			}]
+			title: "Bio Energy"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2BCDC315B1D8BE21"]
+			description: [
+				"&bDraconium Ore&r and &bDraconium Geodes&r are found in the &dOtherside Dimension.&r"
+				""
+				"Draconium is essential for endgame gear."
+			]
+			id: "40309623FF2AF2BD"
+			rewards: [
+				{
+					id: "08B5C2D058C548F6"
+					item: {
+						Count: 1
+						id: "simplyswords:diamond_katana"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5796FCAD96D3ADDF"
+					item: "draconicevolution:draconium_dust"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "Found in the Otherside Dimension"
+			tasks: [{
+				id: "66DFA9A7F18C3681"
+				item: "draconicevolution:draconium_dust"
+				type: "item"
+			}]
+			title: "Draconic Evolution begins"
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["40309623FF2AF2BD"]
+			description: [""]
+			id: "097EC43A81762188"
+			rewards: [
+				{
+					id: "754AD346D2DC23E9"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "490D4CF30BEEA785"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			subtitle: "Crafting ingredient"
+			tasks: [{
+				id: "299C11444AF02EE7"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5179780B4F5DDDA0"]
+			id: "497BBB206398B0E6"
+			rewards: [
+				{
+					count: 4
+					id: "5770F24EA7ECC150"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+				{
+					id: "2E33D4D5407406AA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "24D4A64D2BAEFC6B"
+					item: {
+						Count: 1
+						id: "draconicevolution:dislocator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "083A97AA299B5234"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["264992B0F6D2E6F4"]
+			id: "6F7BFC2049BEA9C1"
+			rewards: [{
+				id: "0FEA7C1D33DB2936"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									1257615028
+									-727560774
+									-1505657739
+									-1756312521
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_capacitor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5939FB24F34024C4"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6F7BFC2049BEA9C1"]
+			id: "4588730A920C2B40"
+			rewards: [{
+				id: "7D18B8D0EFD5A4BA"
+				item: "draconicevolution:item_draconic_flight"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "50C018082E09E539"
+					item: "draconicevolution:awakened_crafting_injector"
+					type: "item"
+				}
+				{
+					id: "149160E06B03C6F4"
+					item: "draconicevolution:chaotic_core"
+					type: "item"
+				}
+			]
+			title: "A bit chaotic"
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["097EC43A81762188"]
+			description: [
+				"Place a &bFusion Core&r and &bFusion Crafting Injectors&r 2 blocks apart from your Fusion Core."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&eExample recipe for a Wyvern Sword:&r"
+				""
+				"1. Place a Diamond Sword inside the Fusion Crafting Core."
+				""
+				"2. PLace a Draconium Core,"
+				"   &o2x&r Draconium Ingots,"
+				"   &o2x&r Basic Energy Relay Crystals,"
+				"   Wyvern Energy Controller"
+				"inside the &bFusion Crafting Injectors&r."
+				""
+				"Ensure the Injectors are &cpowered with energy&r."
+			]
+			id: "5179780B4F5DDDA0"
+			rewards: [
+				{
+					id: "69CFA33272BE4A54"
+					item: "draconicevolution:crystal_binder"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "141C7EA998679129"
+					table_id: 5293772826727693949L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "59647CA69F74FA12"
+					item: "draconicevolution:crafting_core"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "483F53E4301D4215"
+					item: "draconicevolution:basic_crafting_injector"
+					type: "item"
+				}
+			]
+			title: "Draconium Fusion"
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["497BBB206398B0E6"]
+			id: "717F9794EC6657A6"
+			rewards: [
+				{
+					id: "703EA3FD1C5308FA"
+					item: "draconicevolution:item_wyvern_flight"
+					type: "item"
+				}
+				{
+					id: "3EDC9F5D0322EF93"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 9L
+				id: "5173347254375C11"
+				item: { Count: 9, id: "draconicevolution:wyvern_crafting_injector" }
+				type: "item"
+			}]
+			title: "Wyvern Fusion"
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["717F9794EC6657A6"]
+			description: [
+				"The &eDragon Heart&r is dropped by the &dEnder Dragon&r."
+				""
+				"Respawn the Ender Dragon to get more Dragon Hearts."
+			]
+			id: "264992B0F6D2E6F4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10256E369005CB45"
+					table_id: 5293772826727693949L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BF4C7C3DF408765"
+					table_id: 2972118517222002424L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "7BAA41AE003BAE6B"
+					title: "Enter the End"
+					type: "dimension"
+				}
+				{
+					count: 3L
+					id: "63CCF2C952F60495"
+					item: { Count: 3, id: "draconicevolution:dragon_heart" }
+					type: "item"
+				}
+			]
+			title: "Heartbroken"
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3915DC587B4B41B9"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						energy: {
+							energy: 0
+						}
+						module_host: {
+							modules: [ ]
+							properties: {
+								charge_armor: {
+									hud: 1b
+								}
+								charge_curios: {
+									hud: 1b
+								}
+								charge_held_item: {
+									hud: 1b
+								}
+								charge_hot_bar: {
+									hud: 1b
+								}
+								charge_main: {
+									hud: 1b
+								}
+							}
+							provider_id: [I;
+								1609786436
+								1473660832
+								-1527403815
+								90621107
+							]
+						}
+					}
+				}
+				id: "draconicevolution:creative_capacitor"
+				tag: { }
+			}
+			id: "3416BDAF787AC47C"
+			rewards: [{
+				id: "037A79BF6C901187"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									1609786436
+									1473660832
+									-1527403815
+									90621107
+								]
+							}
+						}
+					}
+					id: "draconicevolution:creative_capacitor"
+				}
+				type: "item"
+			}]
+			subtitle: "The chaos Guardian is every 10.000 blocks inside the End away"
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				icon: "draconicevolution:chaos_shard"
+				id: "61B23BC8F51D711D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay  the Chaos Guardian"
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5179780B4F5DDDA0"]
+			id: "3344C63970DACB53"
+			rewards: [{
+				id: "726DBAA82B0B9F2A"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6267DA8A531F8F52"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										-1028818370
+										2089962383
+										-1384594753
+										-1238306028
+									]
+								}
+							}
+						}
+						id: "draconicevolution:wyvern_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "657F9A51185F6604"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+									provider_id: [I;
+										2004444149
+										-867023324
+										-1185394279
+										1925408666
+									]
+								}
+							}
+						}
+						id: "draconicevolution:wyvern_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "46077FC0CF4C18F8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										-1543195838
+										-1293726422
+										-1142752716
+										629686462
+									]
+								}
+							}
+						}
+						id: "draconicevolution:wyvern_bow"
+					}
+					type: "item"
+				}
+			]
+			title: "Wyvern Tools"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4588730A920C2B40"]
+			id: "2F52CC11B87D23D0"
+			rewards: [
+				{
+					id: "0D9A255DC441A6B9"
+					item: "draconicevolution:draconic_energy_core"
+					type: "item"
+				}
+				{
+					id: "30F0E6E1274FFE18"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "075956A5DB3B3153"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										-1798565655
+										-2007217592
+										-1095164904
+										491559965
+									]
+								}
+							}
+						}
+						id: "draconicevolution:draconic_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "2B3D292F6A222EB3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+									provider_id: [I;
+										-1380695115
+										577653453
+										-1138519921
+										-380946906
+									]
+								}
+							}
+						}
+						id: "draconicevolution:draconic_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "18D7F117862FFF27"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										-697314309
+										1178291161
+										-1473135667
+										-641508095
+									]
+								}
+							}
+						}
+						id: "draconicevolution:draconic_bow"
+					}
+					type: "item"
+				}
+			]
+			title: "Draconic Tools"
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2F52CC11B87D23D0"]
+			id: "492F1A79D34B67BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20435F72AE5F9497"
+				table_id: 5293772826727693949L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "56CDCB69856DD99C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-333296290
+									1212698097
+									-1501150996
+									-727153725
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_staff"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5179780B4F5DDDA0"]
+			id: "2220BF16627E9580"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C3B7FEAD3765EF2"
+				table_id: 6162929121828743349L
+				type: "random"
+			}]
+			tasks: [{
+				id: "54844BA6195E17EC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									129642469
+									-965720727
+									-1151464701
+									-177300176
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_chestpiece"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+	]
+	title: "Industrialization"
+}

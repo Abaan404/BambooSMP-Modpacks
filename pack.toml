@@ -1,12 +1,13 @@
-name = "BambooSMP - WAP S3"
+name = "Bamboo SMP Modpack"
+author = "abaan404"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3c3570a9381181191f942c3cd54176589fa674b099026350c876f681fe8139e0"
+hash = "88505f3b1f764235907856727f30c5b739fc1cd40851a8994d3356ef9bf67371"
 
 [versions]
-forge = "47.3.7"
+forge = "47.2.0"
 minecraft = "1.20.1"

@@ -1,0 +1,26 @@
+{
+	icon: "refinedstorage:green_crafting_grid"
+	id: "3E714AC0D43E6D6F"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ item: "refinedstorage:black_crafting_grid" }
+		{ item: "refinedstorage:yellow_grid" }
+		{ item: "refinedstorage:white_grid" }
+		{ item: "refinedstorage:grid" }
+		{ item: "refinedstorage:light_gray_grid" }
+		{ item: "refinedstorage:light_gray_crafting_grid" }
+		{ item: "refinedstorage:brown_crafting_grid" }
+		{ item: "refinedstorage:cyan_crafting_grid" }
+		{ item: "refinedstorage:green_crafting_grid" }
+		{ item: "refinedstorage:magenta_grid" }
+		{ item: "refinedstorage:lime_grid" }
+		{ item: "refinedstorage:red_crafting_grid" }
+		{ item: "refinedstorage:pink_grid" }
+		{ item: "refinedstorage:gray_grid" }
+		{ item: "refinedstorage:purple_crafting_grid" }
+		{ item: "refinedstorage:orange_grid" }
+		{ item: "refinedstorage:blue_crafting_grid" }
+	]
+	title: "Crafting Grids"
+}

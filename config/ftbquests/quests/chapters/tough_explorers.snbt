@@ -1,0 +1,1434 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tough_explorers"
+	group: ""
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "07E793421E889CD0"
+	images: [
+		{
+			height: 1.0d
+			image: "simplyswords:item/stars_edge_anim_02"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/soulrender_layer"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: -10.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/soulrender_layer"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: -8.5d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/soulrender_layer"
+			rotation: 180.0d
+			width: 1.0d
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/minecraft/warden.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/entity_icon/enderdragon/dragon.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -7.5d
+		}
+		{
+			height: 2.0d
+			image: "twilightforest:block/pedestal/snow_queen"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: -7.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["015068A1F292F8FA"]
+			dependency_requirement: "one_completed"
+			id: "2CDF1B259ADF86D1"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "4DFE24FBF561A09C"
+				item: "waystones:return_scroll"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				icon: "waystones:waystone"
+				id: "0C91ABB81391F985"
+				observe_type: 1
+				timer: 0L
+				title: "Find a Waystone"
+				to_observe: "waystones:waystone"
+				type: "observation"
+			}]
+			title: "Waystones"
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["21CDD6AE08F84BA2"]
+			description: ["The Ancient Temple is the sole structure in the Otherside dimension and is filled with valuable loot."]
+			id: "55E460FBDF58B39D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14B8BA4975A88BC9"
+				table_id: 5293772826727693949L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:sculk_catalyst"
+				id: "44F68A3A6F94280F"
+				structure: "deeperdarker:ancient_temple"
+				title: "Find an Ancient Temple"
+				type: "structure"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4B8C7593E46FACF3"]
+			description: ["The Otherside dimension is the only place to find Draconium Ore and Draconium Geodes."]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "77DD662BB530819D"
+			rewards: [
+				{
+					id: "109AC88E71646457"
+					item: "deeperdarker:warden_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					icon: "minecraft:music_disc_far"
+					id: "76CED45B9133CA9E"
+					table_id: 2492547063038239977L
+					type: "random"
+				}
+			]
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "426770C39A06AD60"
+				title: "Enter the Otherside Dimension"
+				type: "dimension"
+			}]
+			title: "Otherside?"
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["015068A1F292F8FA"]
+			description: ["The End dimension contains uraninite ore geodes, making it an excellent place to gather uraninite."]
+			icon: "minecraft:end_portal_frame"
+			id: "0BEEC906FEC7B7E8"
+			rewards: [
+				{
+					count: 3
+					id: "5C5571EA2981E382"
+					item: "endercrop:ender_seeds"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "70B5048F3B482193"
+					item: {
+						Count: 1
+						id: "immersive_melodies:didgeridoo"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "443089CF3A3B906B"
+				title: "Enter the End"
+				type: "dimension"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["015068A1F292F8FA"]
+			description: [
+				"Imagine stepping through a portal into a twilight realm, filled with trees as far as the eye can see."
+				""
+				"Breathtaking vistas and amazing discoveries await you around every corner."
+				""
+				"But beware! Not all denizens of the forest respond to your intrusion lightly."
+			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "45D666078C754AC2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A20EE198E82DE1B"
+					table_id: 2492547063038239977L
+					type: "random"
+				}
+				{
+					count: 6
+					id: "3C1C53806D9554C9"
+					item: "reliquary:withered_rib"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "1F473EB20B09EBE9"
+				title: "Enter the Twilight Forest"
+				type: "dimension"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["015068A1F292F8FA"]
+			description: ["The Nether remains largely unchanged but now features new structures and gold geodes."]
+			icon: "minecraft:magma_block"
+			id: "7ABCCD7E48401913"
+			rewards: [
+				{
+					id: "738D0030F4E12E91"
+					item: "potion_amulets:slow_falling_amulet"
+					type: "item"
+				}
+				{
+					id: "6A211B5D246E6A70"
+					item: "minecraft:feather"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "13DE016CB4896F73"
+				title: "Enter the Nether Dimension"
+				type: "dimension"
+			}]
+			title: "Visit the Nether"
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["196023BD7BB276EB"]
+			id: "055945F855B49B9B"
+			rewards: [{
+				count: 4
+				id: "03F93FB1838237BA"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:end_stone"
+				id: "37B633568636790E"
+				structure: "#minecraft:end_city"
+				title: "Find an End City"
+				type: "structure"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77DD662BB530819D"]
+			description: [""]
+			id: "21CDD6AE08F84BA2"
+			rewards: [
+				{
+					id: "41FF2FA3E988C403"
+					item: "deeperdarker:reinforced_echo_shard"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4319E5D55AFC882A"
+					table_id: 1154677657677219077L
+					type: "random"
+				}
+			]
+			subtitle: "Tier between Diamond and Netherite."
+			tasks: [
+				{
+					count: 5L
+					id: "2CEF6C1A372B2F02"
+					item: { Count: 5, id: "deeperdarker:resonarium" }
+					type: "item"
+				}
+				{
+					id: "5699F7CF2D90E85D"
+					item: "deeperdarker:resonarium_plate"
+					type: "item"
+				}
+			]
+			title: "Resonarium"
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["081A2E1B6C173189"]
+			description: [
+				"The Hydra is located in the Hydra Lair at the center of a Fire Swamp."
+				""
+				"Defeating it and collecting Fiery Blood is a step toward unlocking the Highlands."
+			]
+			id: "13335C9F5B3120DC"
+			rewards: [{
+				id: "05408CC9BC77FB36"
+				item: {
+					Count: 1
+					id: "twilightforest:knightmetal_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "053481E68BD1E68C"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["015068A1F292F8FA"]
+			description: [
+				"Defeat a Warden and use its heart to activate the Ancient City Portal."
+				""
+				"Be sure to clear the portal of any Sculk Veins or other blocks before activation."
+			]
+			id: "4B8C7593E46FACF3"
+			rewards: [{
+				id: "48D9F0E32435EBF7"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "deeperdarker:sculk_affinity"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					icon: "minecraft:sculk"
+					id: "1036AFF45C350CAB"
+					structure: "minecraft:ancient_city"
+					title: "Find an Ancient City"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:warden"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/warden.png"
+						}
+					}
+					id: "2AB3967F73FCDDE3"
+					title: "Kill the Warden"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Conquer the Ancient City"
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["015068A1F292F8FA"]
+			description: ["Modded blocks like &dReinforced Obsidian&r could help."]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "533B090E36210505"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49597790C7030CB5"
+				table_id: 5293772826727693949L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "65257079EB178E80"
+				type: "kill"
+				value: 3L
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B87D29559E2F898"]
+			id: "523212CAC1BB575F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42C0E2F996AD7266"
+					table_id: 6490254544786875224L
+					type: "random"
+				}
+				{
+					id: "3AC0FBA869B8C6AD"
+					item: "simplefarming:golden_habanero"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:piglin_head"
+					id: "026D1D3F29D07C73"
+					structure: "#minecraft:bastion_remnant"
+					title: "Find a Bastion Remnant"
+					type: "structure"
+				}
+				{
+					id: "2868C0D62D6B19D8"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					only_from_crafting: false
+					title: "Find a Smithing Template"
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["015068A1F292F8FA"]
+			description: ["Mimics can spawn in small camps across the Exosphere."]
+			id: "65E9DA3A7DA289F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BB863908F574F39"
+				table_id: 6490254544786875224L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "artifacts:mimic"
+				id: "0E2919FDE44BA9F2"
+				type: "kill"
+				value: 3L
+			}]
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["45D666078C754AC2"]
+			description: [
+				"The Naga is located in the Naga Courtyard."
+				""
+				"Upon defeat, it drops Naga Scales, a Naga Trophy, and other loot. The Naga Scale will grant access to the Lich Tower."
+			]
+			id: "538B3D106612DFE2"
+			rewards: [
+				{
+					id: "6FB6FE9BA93CDC57"
+					item: {
+						Count: 1
+						id: "twilightforest:block_and_chain"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5180AAECDF0F0064"
+					table_id: 113986825505921126L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3E065A435CC0A0A2"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["538B3D106612DFE2"]
+			description: [
+				"The Twilight Lich is located in the Lich Tower."
+				""
+				"Defeating it and obtaining the scepter will grant access to the Swamp, Dark Forest, Snowy Forest, and the dungeons in each area."
+			]
+			id: "3A29C85C273BF786"
+			rewards: [
+				{
+					id: "134EE14B695C5067"
+					item: {
+						Count: 1
+						id: "twilightforest:arctic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F2CFA175177C62A"
+					item: {
+						Count: 1
+						id: "immersive_melodies:flute"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57CC175501D7A6F3"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3A29C85C273BF786"]
+			description: [
+				"The Minoshroom is located in Labyrinths within the Twilight Swamp biome."
+				""
+				"Natural entrances are through caves or small hills that lead directly to the center."
+				""
+				"The goal is to defeat the Minoshroom."
+				"Killing it and consuming one of the dropped Meef Stroganoff will grant access to the Fire Swamp."
+			]
+			id: "081A2E1B6C173189"
+			rewards: [
+				{
+					id: "0C0773C9B1D09EDA"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:blast_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								SelectedSlot: 0
+								Size: 6
+							}
+						}
+						id: "supplementaries:quiver"
+					}
+					id: "5FB208DA9BF2A072"
+					table_id: 4553058941103004768L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "198A21F617CDABBF"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["13335C9F5B3120DC"]
+			description: [
+				"The Knight Phantom is located in the Goblin Knight Stronghold beneath Dark Forests."
+				""
+				"To enter the stronghold, find a room with a Trophy Pedestal and place any trophy on it to remove the shield around the stronghold."
+				""
+				"Navigate through the stronghold to find and defeat the Knight Phantom, which will grant access to the Dark Tower."
+			]
+			id: "7DDC756F66391A4E"
+			rewards: [
+				{
+					id: "4C2EAE79CC21E3D5"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "minecraft:wild_armor_trim_smithing_template"
+					id: "5C84C31A7BAB2A17"
+					table_id: 1154677657677219077L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "2CCF06243391E6B1"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7DDC756F66391A4E"]
+			description: [
+				"The Ur-Ghast is located at the top of the Dark Tower, situated in the center of the Dark Forest."
+				""
+				"Defeating the Ur-Ghast and collecting the Fiery Tears is a key step to unlocking the Highlands."
+			]
+			id: "5765694D885F5084"
+			rewards: [
+				{
+					id: "44F9EC15D11A21AF"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "minecraft:music_disc_otherside"
+					id: "2ECA848158846DAC"
+					table_id: 2492547063038239977L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1531C14BBBE1EAFE"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5765694D885F5084"]
+			description: [
+				"The Alpha Yeti resides in the Yeti Lair, located in the center of Snowy Forest biomes."
+				""
+				"The lair has four natural entrances and is home to many Yeti packs."
+				""
+				"Defeating the Alpha Yeti and obtaining its fur will unlock the Glacier biome."
+			]
+			id: "54ECE33BE048901B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A17C82872CA47A0"
+					table_id: 5293772826727693949L
+					type: "random"
+				}
+				{
+					id: "4EF4304D8DD2F4F8"
+					item: "rsinfinitybooster:infinity_card"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "449A494D6B0163FE"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54ECE33BE048901B"]
+			description: [
+				"The Snow Queen is located in the Aurora Palace within Glacier biomes."
+				""
+				"Defeating her will unlock the Highlands."
+			]
+			id: "39A193410B231886"
+			rewards: [{
+				id: "221EFDFF456E6C1D"
+				item: "twilightforest:uncrafting_table"
+				type: "item"
+			}]
+			tasks: [{
+				id: "519FA2273872FC28"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7ABCCD7E48401913"]
+			id: "444048639F57327D"
+			rewards: [{
+				count: 3
+				id: "0F46F4E9356BCE96"
+				item: "reliquary:molten_core"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "328F9597A88D5F04"
+				structure: "#minecraft:fortress"
+				title: "Find a Nether Fortress"
+				type: "structure"
+			}]
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["444048639F57327D"]
+			id: "6B87D29559E2F898"
+			rewards: [
+				{
+					id: "4D78120912C820A5"
+					item: "reliquary:nebulous_heart"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7199FE414F231FCD"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:ghast"
+					icon: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									599583683
+									-557823658
+									-1930556164
+									-1165866836
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU4YTM4ZTlhZmJkM2RhMTBkMTliNTc3YzU1YzdiZmQ2YjRmMmU0MDdlNDRkNDAxN2IyM2JlOTE2N2FiZmYwMiJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Ghast\"}"
+							}
+						}
+					}
+					id: "7087408EA2B76093"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:wither_skeleton"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "7AC107EB7AD1C31B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:hoglin"
+					id: "62F274D9A3B42515"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Nether Slaughter"
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BEEC906FEC7B7E8"]
+			description: ["The Ender Dragon drops a Dragon Heart, crucial for Draconic Evolution crafting."]
+			id: "196023BD7BB276EB"
+			rewards: [
+				{
+					id: "0DE216DF979BBA5B"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B45E8392804210D"
+					table_id: 5293772826727693949L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "29DA68702218968D"
+				title: "Kill the Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Dragon"
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["055945F855B49B9B"]
+			description: ["An Elytra can help you navigate the Exosphere, be used to craft a Flight Module for your Draconic Chestpiece, or be crafting into a Soul Elytra."]
+			id: "6295FF1B7C1BE2B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35560E25B8EB81C4"
+				table_id: 6490254544786875224L
+				type: "random"
+			}]
+			tasks: [{
+				id: "12F480E7273D75E1"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"523212CAC1BB575F"
+				"6295FF1B7C1BE2B8"
+				"55E460FBDF58B39D"
+				"533B090E36210505"
+				"39A193410B231886"
+				"65E9DA3A7DA289F2"
+			]
+			id: "550306AFF8A9A883"
+			rewards: [
+				{
+					id: "22F43FC18B595792"
+					item: {
+						Count: 1
+						id: "twilightforest:glass_sword"
+						tag: {
+							Damage: 0
+							Unbreakable: 1b
+							display: {
+								Lore: ["{\"translate\":\"item.twilightforest.glass_sword.desc\",\"italic\":false,\"color\":\"gray\"}"]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0507612895FA69E3"
+					table_id: 5293772826727693949L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: true
+				id: "52805761AC71D323"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "simplyswords:uniques"
+					}
+				}
+				title: "Submit a Legendary Weapon"
+				type: "item"
+			}]
+			title: "Heavy Damage"
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["015068A1F292F8FA"]
+			id: "7707F30CF0D236FD"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7112E9665B1D844F"
+					table_id: 2972118517222002424L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A9CC4948CB2A2BD"
+					table_id: 4553058941103004768L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:cherry_grove"
+				icon: "minecraft:cherry_leaves"
+				id: "7DD15B773B33DE30"
+				title: "Find a Cherry Grove Biome"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["015068A1F292F8FA"]
+			id: "137FA1BFE4FD01F5"
+			rewards: [
+				{
+					id: "2D845203B49EFB75"
+					item: {
+						Count: 1
+						id: "simplyswords:iron_glaive"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "supplementaries:globe"
+					id: "325B008883779FC7"
+					table_id: 113986825505921126L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "5AFCB69A168A7D53"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Zombie Slayer"
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["137FA1BFE4FD01F5"]
+			id: "56911A480EA78300"
+			rewards: [
+				{
+					id: "4E925BE427D7D981"
+					item: {
+						Count: 1
+						id: "simplyswords:gold_chakram"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "minecraft:music_disc_chirp"
+					id: "6165464B2D3551C7"
+					table_id: 2492547063038239977L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "3AE9BEFEFBA7FF4C"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Creeper Buster"
+			x: -13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["56911A480EA78300"]
+			id: "060A12B2B2E485AC"
+			rewards: [
+				{
+					id: "762C1787AABE0652"
+					item: {
+						Count: 1
+						id: "simplyswords:diamond_twinblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2315D6DF5F7ED040"
+					item: {
+						Count: 1
+						id: "immersive_melodies:bagpipe"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "74EC19D9C3CB944E"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Endermen Farmer"
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["060A12B2B2E485AC"]
+			id: "057917DEE58DD115"
+			rewards: [{
+				id: "73F3EA203824C60F"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "simplyswords:toxic_longsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "605E68EE8F765880"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 512
+			}]
+			title: "Running Mob Slaughter Factory"
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["060A12B2B2E485AC"]
+			description: ["The Magicbane increases the drop rate of Reliquary loot."]
+			id: "069CFC2D0BBEBA32"
+			rewards: [
+				{
+					count: 5
+					id: "3C1CD1F16EAFA8A9"
+					item: "minecraft:lily_pad"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B6DD6814E8F19C0"
+					table_id: 6637098545594803146L
+					type: "choice"
+				}
+			]
+			subtitle: "Did you notice how rare Lily Pads are?"
+			tasks: [{
+				id: "581C66726A9439CD"
+				item: {
+					Count: 1
+					id: "reliquary:magicbane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "More Reliquary drops"
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["069CFC2D0BBEBA32"]
+			description: [
+				"The Pedestal automates player interactions with items."
+				""
+				" Equip it with a tool, like a sword, and activate it with Redstone to create an easy mob grinder, for example."
+			]
+			id: "09ED0F46CC4D8732"
+			rewards: [
+				{
+					count: 4
+					id: "446C8AF757097877"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "493E650ACF05EE2F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "3ABD28E666224135"
+				item: "reliquary:pedestals/white_pedestal"
+				type: "item"
+			}]
+			title: "Magic Automation"
+			x: -14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["167EFDF3375E4711"]
+			id: "66CCCE19D7B15C7F"
+			rewards: [{
+				id: "65E272702108E177"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19DDFDD05FD57297"
+				item: "reliquary:mob_charm_belt"
+				type: "item"
+			}]
+			title: "Become Invisible"
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["09ED0F46CC4D8732"]
+			description: ["This gun can use ammunition with various &dpotion effects&r."]
+			id: "167EFDF3375E4711"
+			rewards: [
+				{
+					id: "385FE21E025A1782"
+					item: "reliquary:magazines/blaze_magazine"
+					type: "item"
+				}
+				{
+					icon: "minecraft:coast_armor_trim_smithing_template"
+					id: "3F8ADDA8E5130B4A"
+					table_id: 1154677657677219077L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "553B6A6705F5C1D6"
+					item: {
+						Count: 1
+						id: "reliquary:handgun"
+						tag: {
+							bulletCount: 6s
+							coolDownTime: 159020L
+							magazineType: "reliquary:magazines/neutral_magazine"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "584A7029E65EBE48"
+					item: "reliquary:magazines/neutral_magazine"
+					type: "item"
+				}
+			]
+			title: "PEGI 18"
+			x: -14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09ED0F46CC4D8732"]
+			description: ["Place desired recipe into the bowl and hold &dright-click&r on it."]
+			id: "60E3568987DD3D12"
+			rewards: [
+				{
+					id: "3D632019B54E9D3B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								SelectedSlot: 0
+								Size: 6
+							}
+						}
+						id: "supplementaries:quiver"
+					}
+					id: "1308C6365694870B"
+					table_id: 4553058941103004768L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "7CC00D7452565216"
+				item: "reliquary:apothecary_mortar"
+				type: "item"
+			}]
+			title: "Keep grinding!"
+			x: -16.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["60E3568987DD3D12"]
+			description: [
+				"Fill it with &3water&r,"
+				"place a &cfire underneath&r and"
+				"mix your essence(s) with a &4nether wart&r."
+				""
+				"Grab an &bempty vial&r and get your &edesired potion&r."
+			]
+			id: "1747A5E63D577B94"
+			rewards: [{
+				id: "28632886F07B3A4B"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C0F3488BBBCACDC"
+				item: "reliquary:apothecary_cauldron"
+				type: "item"
+			}]
+			title: "Witch work"
+			x: -16.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["550306AFF8A9A883"]
+			id: "3A11A6F3D15A93B0"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B86913497C7CE04"
+				table_id: 6490254544786875224L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "artifacts:mimic"
+				icon: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_chest"
+					tag: {
+						accentColor: 11546150
+						mainColor: 11546150
+					}
+				}
+				id: "45177F8C07849679"
+				type: "kill"
+				value: 3L
+			}]
+			title: "More Mimics!"
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["550306AFF8A9A883"]
+			id: "0EB697F9D526F31E"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19F5F6270801E66E"
+					table_id: 5293772826727693949L
+					type: "random"
+				}
+				{
+					id: "6627FDE12F5E09BF"
+					item: "draconicevolution:dragon_heart"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "43C8B7104B2A5E67"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:warden"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/warden.png"
+						}
+					}
+					id: "15AEAB86AFA7AFA4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Easy Peasy"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["015068A1F292F8FA"]
+			id: "2F38367412C48CE5"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B950E3D4458F443"
+				table_id: 5293772826727693949L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "deeperdarker:warden_carapace"
+				id: "12F32B11D1C93EC2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["015068A1F292F8FA"]
+			icon: "immersive_aircraft:biplane"
+			id: "65F74023B8302952"
+			rewards: [
+				{
+					count: 5
+					id: "289517CA823FA04F"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "060D2672B873ECBD"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "65B66F705D8FEC6B"
+				item: "immersive_aircraft:hull"
+				type: "item"
+			}]
+			title: "Sky is the Limit"
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["65F74023B8302952"]
+			id: "0372CC889CB16B81"
+			rewards: [
+				{
+					count: 2
+					id: "35DEB1C08E5FEAA6"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "442B1691C22DF655"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "706061C4294A8F62"
+				item: "immersive_aircraft:boiler"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0372CC889CB16B81"]
+			id: "24189E7FB8DC5391"
+			rewards: [
+				{
+					id: "5B71CFAAA3472A36"
+					item: "immersive_aircraft:industrial_gears"
+					type: "item"
+				}
+				{
+					id: "5C42409CA39B26CD"
+					item: {
+						Count: 1
+						id: "immersive_melodies:trumpet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32B64CF64C35147E"
+				item: "immersive_aircraft:engine"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["24189E7FB8DC5391"]
+			id: "135BD13AD2529A99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F30B4EB847EE1A4"
+				table_id: 5293772826727693949L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0975F3B5A472F6A7"
+					item: "immersive_aircraft:propeller"
+					type: "item"
+				}
+				{
+					id: "65BF755104521EC2"
+					item: "immersive_aircraft:biplane"
+					type: "item"
+				}
+			]
+			title: "craft a Biplane"
+			x: -5.5d
+			y: -2.5d
+		}
+	]
+	title: "Tough Exploration"
+}

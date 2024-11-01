@@ -1,0 +1,13 @@
+name = "Trimmable Tools"
+filename = "trimmable_tools-forge-2.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "615c0a80bd4af914cbfd99202a68e00811c16967"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5743745
+project-id = 834329

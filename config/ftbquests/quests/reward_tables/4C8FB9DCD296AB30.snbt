@@ -1,0 +1,16 @@
+{
+	icon: "minecraft:chest_minecart"
+	id: "4C8FB9DCD296AB30"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: "minecraft:minecart" }
+		{ item: "minecraft:hopper_minecart" }
+		{ item: "minecraft:chest_minecart" }
+		{ item: "minecraft:furnace_minecart" }
+		{ item: "minecraft:tnt_minecart" }
+		{ item: "supplementaries:dispenser_minecart" }
+		{ count: 32, item: "minecraft:rail" }
+	]
+	title: "Carts"
+}

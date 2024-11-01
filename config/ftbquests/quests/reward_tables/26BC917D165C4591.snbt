@@ -1,0 +1,20 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "minecraft:block/campfire_fire"
+		}
+	}
+	id: "26BC917D165C4591"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 8, item: "beautify:lamp_bamboo" }
+		{ count: 8, item: "minecraft:torch" }
+		{ count: 8, item: "supplementaries:sconce" }
+		{ count: 8, item: "minecraft:lantern" }
+		{ item: "minecraft:campfire" }
+	]
+	title: "Lights"
+}

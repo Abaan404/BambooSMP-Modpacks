@@ -1,0 +1,21 @@
+{
+	icon: "supplementaries:globe"
+	id: "0194F669F35AD866"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ count: 3, item: "supplementaries:rope" }
+		{ item: "supplementaries:hourglass" }
+		{ count: 2, item: "supplementaries:flower_box" }
+		{ item: "minecraft:bell" }
+		{ item: "supplementaries:statue" }
+		{ item: "supplementaries:hat_stand" }
+		{ item: "supplementaries:globe" }
+		{ item: "minecraft:lightning_rod" }
+		{ item: "supplementaries:jar" }
+		{ item: "supplementaries:planter" }
+		{ item: "supplementaries:crystal_display" }
+		{ item: "supplementaries:wind_vane" }
+	]
+	title: "Cool Decoration"
+}

@@ -1,0 +1,27 @@
+{
+  "feature": "ore_geodes:draconium_geode",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 76
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 42
+        },
+        "max_inclusive": {
+          "absolute": 86
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

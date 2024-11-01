@@ -1,0 +1,14 @@
+{
+	id: "55871F623A8328B5"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ item: "draconicevolution:item_draconium_aoe" }
+		{ item: "draconicevolution:item_draconium_auto_feed" }
+		{ item: "draconicevolution:item_draconium_damage" }
+		{ item: "draconicevolution:item_draconium_energy" }
+		{ item: "draconicevolution:item_draconium_jump" }
+		{ item: "draconicevolution:item_draconium_speed" }
+	]
+	title: "Draconium Modules"
+}

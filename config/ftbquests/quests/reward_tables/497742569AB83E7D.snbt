@@ -1,0 +1,151 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "refinedstorage:block/controller/cutouts/magenta"
+		}
+	}
+	id: "497742569AB83E7D"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "reliquary:nebulous_heart" }
+		{ item: "minecraft:skeleton_skull" }
+		{ item: "reliquary:eye_of_the_storm" }
+		{ item: "reliquary:molten_core" }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "draconicevolution:draconium_core" }
+		{ item: "draconicevolution:draconium_ingot" }
+		{ item: "minecraft:totem_of_undying" }
+		{ item: "reliquary:frozen_core" }
+		{ item: "reliquary:slime_pearl" }
+		{ item: "reliquary:catalyzing_gland" }
+		{ item: "voidtotem:totem_of_void_undying" }
+		{ item: "minecraft:ancient_debris" }
+		{ item: "powah:uraninite_block" }
+		{ item: "draconicevolution:awakened_draconium_nugget" }
+		{ item: "deeperdarker:sculk_transmitter" }
+		{
+			item: {
+				Count: 1
+				id: "enderio:filled_soul_vial"
+				tag: {
+					BlockEntityTag: {
+						EntityStorage: {
+							Entity: {
+								id: "ore_creeper:coal_creeper"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enderio:filled_soul_vial"
+				tag: {
+					BlockEntityTag: {
+						EntityStorage: {
+							Entity: {
+								id: "ore_creeper:copper_creeper"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enderio:filled_soul_vial"
+				tag: {
+					BlockEntityTag: {
+						EntityStorage: {
+							Entity: {
+								id: "ore_creeper:diamond_creeper"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enderio:filled_soul_vial"
+				tag: {
+					BlockEntityTag: {
+						EntityStorage: {
+							Entity: {
+								id: "ore_creeper:emerald_creeper"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enderio:filled_soul_vial"
+				tag: {
+					BlockEntityTag: {
+						EntityStorage: {
+							Entity: {
+								id: "ore_creeper:gold_creeper"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enderio:filled_soul_vial"
+				tag: {
+					BlockEntityTag: {
+						EntityStorage: {
+							Entity: {
+								id: "ore_creeper:iron_creeper"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enderio:filled_soul_vial"
+				tag: {
+					BlockEntityTag: {
+						EntityStorage: {
+							Entity: {
+								id: "ore_creeper:lapis_lazuli_creeper"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enderio:filled_soul_vial"
+				tag: {
+					BlockEntityTag: {
+						EntityStorage: {
+							Entity: {
+								id: "ore_creeper:redstone_creeper"
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+	title: "High Tier"
+}

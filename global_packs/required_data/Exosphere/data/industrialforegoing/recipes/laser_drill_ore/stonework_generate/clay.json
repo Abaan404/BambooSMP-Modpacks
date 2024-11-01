@@ -1,0 +1,11 @@
+{
+  "type": "industrialforegoing:stonework_generate",
+  "lavaConsume": 0,
+  "lavaNeed": 0,
+  "output": {
+    "count": 1,
+    "item": "minecraft:clay"
+  },
+  "waterConsume": 1000,
+  "waterNeed": 1000
+}

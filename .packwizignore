@@ -4,5 +4,6 @@
 # Exclude README
 /README.md
 
-flake.nix
-flake.lock
+# Exclude nix flakes
+./flake.nix
+./flake.lock

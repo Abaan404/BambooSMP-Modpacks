@@ -1,0 +1,107 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 16
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{author:\"unkown\",pages:['{\"text\":\"I trust this note finds the right recipient...\\\\n\\\\nIn a time when the overworld was blank, we builders rose.\\\\n\\\\nWith artistry and mastery, we built soaring towers, embedding them with secrets.\"}','{\"text\":\"Elytras, woven from dimensional creatures, were our gift ...\\\\n\\\\nAmidst the devastation, a significant portion of the Elytras was lost. However, a handful can still be located within the towers.\"}','{\"text\":\"Seek out for Elytras within as many towers as you can.\\\\n\\\\nOvercome this ravaged world and rebuilt it.\"}'],resolved:1b,title:\"ancient note 1\"}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": "Ancient note 1"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{author:\"unkown\",pages:['{\"text\":\"Following the world\\'s demise, the oceans evaporated within mere seconds.\\\\n\\\\nWe tried to secure as much life and resources from the oceans as possible and to relocated them in the humid jungle.\"}','{\"text\":\"You can find Prismarine, Sponges, the Heart of the Sea and much more in our chests in the Jungle.\\\\n\\\\nBe cautious, as we\\'ve laid traps for hostile creatures. Yet, you should be able to deactivate them.\"}'],resolved:1b,title:\"ancient note 2\"}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": "Ancient note 2"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{author:\"unkown\",pages:['{\"text\":\"Our technology was primitive, yet it always sufficed.\\\\n\\\\nHowever, the world you have encountered is full of new dangers.\\\\n\\\\nIn my remaining time, I will work on new technologies.\"}','{\"text\":\"Along with all relics of my ancestors, I will place them in chests, scattered all over the world so you can find them under any conditions.\\\\n\\\\nTake them and start a new era.\"}'],resolved:1b,title:\"ancient note 3\"}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": "Ancient note 3"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{author:\"unkown\",pages:['{\"text\":\"You\\'re probably wondering how all of this came about.\\\\n\\\\nTo be honest, we don\\'t quite know yet either.\\\\n\\\\nSome builders were in the midst of exploring a new dimension, which by now is nothing new for us.\"}','{\"text\":\"However, we never saw them again.\\\\n\\\\nTheir last reports were about creatures stronger than the Wither and more cunning than the Ender Dragon.\\\\n\"}','{\"text\":\"Whatever occurred in the other dimension ended up damaging our own.\\\\n\\\\nAnd now we live in a shattered overworld, full of wildfires like the Nether, and our air is running thin.\"}'],resolved:1b,title:\"ancient note 4\"}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": "Ancient note 4"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{author:\"unkown\",pages:['{\"text\":\"It has been a week now since the world shattered. With the help of copper, iron, gold, and other materials, I was able to create new alloys.\\\\n\\\\nThe Armorer crafted helmets from turtle shells, allowing us to breathe a bit better again.\"}','{\"text\":\"Currently, I\\'m working on a so-called ME storage system; it digitizes items.\\\\n\\\\nQuite compact! \\\\n\\\\nIt eases things for us during this time, but it\\'s not fully refined yet.\"}','{\"text\":\"Meanwhile, the Toolsmith has crafted grappling hooks from pickaxes, and the Weaponsmith has forged an entire arsenal of new swords.\\\\n\\\\nTomorrow, they will present new chests, barrels and shields to us.\"}','{\"text\":\"We are doing everything to prepare ourselves against new dangers in the Nether and the End; reports speak of even stronger creatures.\\\\n\\\\nWhere will all of this end?\"}'],resolved:1b,title:\"ancient note 5\"}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": "Ancient note 5"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{author:\"unkown\",pages:['{\"text\":\"With the help of a totem, we were able to craft the Totem of Void Undying today.\\\\n\\\\nIt has already rescued me from unsuccessful grappling hook maneuvers.\\\\n\\\\nThis item is essential for survival here.\"}'],resolved:1b,title:\"ancient note 6\"}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": "Ancient note 6"
+						}
+					]
+				}
+			]
+		}
+	]
+}

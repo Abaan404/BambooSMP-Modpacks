@@ -1,0 +1,15 @@
+{
+	id: "293F160B6160CEF8"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 8, item: "simplefarming:oat_bread" }
+		{ count: 14, item: "simplefarming:tomato" }
+		{ count: 3, item: "simplefarming:plum_pie" }
+		{ count: 2, item: "simplefarming:hamburger" }
+		{ count: 2, item: "simplefarming:pizza" }
+		{ count: 5, item: "simplefarming:candy" }
+		{ count: 13, item: "minecraft:cookie" }
+	]
+	title: "Delicous Snack"
+}

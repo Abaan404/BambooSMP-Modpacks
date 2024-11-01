@@ -1,0 +1,24 @@
+{
+	icon: "refinedstorage:red_crafting_grid"
+	id: "44B1162EFE16E67C"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "refinedstorage:white_crafting_monitor" }
+		{ item: "refinedstorage:orange_crafting_monitor" }
+		{ item: "refinedstorage:magenta_crafting_monitor" }
+		{ item: "refinedstorage:yellow_crafting_monitor" }
+		{ item: "refinedstorage:lime_crafting_monitor" }
+		{ item: "refinedstorage:pink_crafting_monitor" }
+		{ item: "refinedstorage:gray_crafting_monitor" }
+		{ item: "refinedstorage:light_gray_crafting_monitor" }
+		{ item: "refinedstorage:cyan_crafting_monitor" }
+		{ item: "refinedstorage:purple_crafting_monitor" }
+		{ item: "refinedstorage:blue_crafting_monitor" }
+		{ item: "refinedstorage:brown_crafting_monitor" }
+		{ item: "refinedstorage:green_crafting_monitor" }
+		{ item: "refinedstorage:red_crafting_monitor" }
+		{ item: "refinedstorage:black_crafting_monitor" }
+	]
+	title: "Crafting Monitors"
+}

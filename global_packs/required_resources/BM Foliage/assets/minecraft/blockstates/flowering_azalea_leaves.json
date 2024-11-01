@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      { "model": "beyondmines:block/flowering_azalea_leaves/1"},
+      { "model": "beyondmines:block/flowering_azalea_leaves/2"},
+      { "model": "beyondmines:block/flowering_azalea_leaves/3"},
+      { "model": "beyondmines:block/flowering_azalea_leaves/4"},
+      { "model": "beyondmines:block/flowering_azalea_leaves/5"},
+      { "model": "beyondmines:block/flowering_azalea_leaves/6"}
+    ]
+  }
+}

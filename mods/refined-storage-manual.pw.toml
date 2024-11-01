@@ -1,0 +1,13 @@
+name = "Refined Storage Manual"
+filename = "refstoragemanual-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a1a33e90ba9e0c19fa025fd0b78032c09445bdd6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5147555
+project-id = 980869

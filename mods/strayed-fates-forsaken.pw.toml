@@ -1,0 +1,13 @@
+name = "STRAYED FATES: Forsaken"
+filename = "strayed-fates-forsaken-v1.1.3.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "87d40513a2b39ceb0a8654f9ff1a2d7d305f3eee"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5755569
+project-id = 976478

@@ -1,0 +1,15 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "beyondmines:block/grass_normal_height"
+			},
+			{
+				"model": "beyondmines:block/grass_mid_height"
+			},
+			{
+				"model": "beyondmines:block/grass_low_height"
+			}
+		]
+	}
+}
