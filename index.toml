@@ -679,10 +679,6 @@ file = "config/fancymenu/assets/bmlogo/icon_32x32.png"
 hash = "00001644e3f5ece41ea1b22c4948b0a9648e3a2dd16d1a990daecdb0ef2cda97"
 
 [[files]]
-file = "config/fancymenu/assets/exosphere_anim.fma"
-hash = "6d205638954693f3b0b4c0fcdd128f2fa95adce0d193e4e02588c216c75e7442"
-
-[[files]]
 file = "config/fancymenu/assets/icon_16x16.png"
 hash = "ece8c24bad6b288a5d062aeda3d9bd14f517e3ebce03f2c0863c4446dc168f3e"
 
@@ -1789,14 +1785,6 @@ hash = "89a5fa1625e2e3fbdc14d947adbb7eb0bbf0e48a9fed7675ed92ccae69d33b3c"
 [[files]]
 file = "config/waystones-common.toml"
 hash = "f682e353825fc32e5de22d716e26f8a2f59163f1fb56638eb87fe401b44433f2"
-
-[[files]]
-file = "flake.lock"
-hash = "33705fed4e0e025b60b798aed1bd3e742724ad3dcd23d0fa4c5aa8cafc53050d"
-
-[[files]]
-file = "flake.nix"
-hash = "c775d43485e63a8544dd23321dbe65f0463442e6e7599ad96ac39cfbe8484aba"
 
 [[files]]
 file = "global_packs/required_data/Exosphere/data/biomeswevegone/worldgen/biome/allium_shrubland.json"
@@ -4406,6 +4394,11 @@ hash = "950f4ae65aa902fc0f05d4976666c133fc7a377d9a8a195e37cae3a98b4f520e"
 metafile = true
 
 [[files]]
+file = "mods/bl4cks-sit.pw.toml"
+hash = "9e6761574474435f1db47112ecb2eeb988fca3ff68e0e861d7631fc2896eba2f"
+metafile = true
+
+[[files]]
 file = "mods/blur-forge.pw.toml"
 hash = "b452fc877ad16f35cf274f3945ec7eb46d645be3d76bd506858b263ce09332ce"
 metafile = true
@@ -4608,6 +4601,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "750841548ae0990fca6a11691760b394623d3316bc1eaad47ad7ee0ec5a906c9"
+metafile = true
+
+[[files]]
+file = "mods/dcintegration.pw.toml"
+hash = "ec5b452599201804f40e6a9f4549849065b8428d5b046bd0638f9897e1e4b72c"
 metafile = true
 
 [[files]]
@@ -4818,6 +4816,11 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
+metafile = true
+
+[[files]]
+file = "mods/figura.pw.toml"
+hash = "94e4884521c256740df7adbdaacb385a30262c0bc711e3af502dd42906a06f5d"
 metafile = true
 
 [[files]]
@@ -5053,6 +5056,11 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "7ff110c86a5c19b4c5638695d9a888fb3558649410c49bc21ec0f7711587f1de"
+metafile = true
+
+[[files]]
+file = "mods/luckperms.pw.toml"
+hash = "646a3bb87c40661133f72b4351c2727c16f5660568bf5a66321ab410b1682fb8"
 metafile = true
 
 [[files]]
@@ -5301,6 +5309,11 @@ hash = "a89c7f9b9bc9f4c4cbfbbab84d300f5387c1172ce723f2e7150b8b61017183fb"
 metafile = true
 
 [[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "4d261b6713df4695a8bc08a1eeba9d700873b01d74312f4b26bef8dc1e37ebdc"
+metafile = true
+
+[[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "60fffd9990be454a9dffb87a2804f654e6deb21b2ee63924ef4a84d443612352"
 metafile = true
@@ -5338,6 +5351,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "c7303b109577a683aef185c43912e4e9194397ddd40c562880468937136af0af"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "dbe2c430bf58c773082d7fd9d1bee2d510a2e0c08f390f7465e819b6e321ae09"
 metafile = true
 
 [[files]]
