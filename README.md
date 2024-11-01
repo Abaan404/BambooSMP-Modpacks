@@ -1,3 +1,3 @@
 # Minecraft Modpacks for BambooSMP
 
-- Check branches for packs
+= Original Pack: BM: Exosphere Community Edition (https://www.curseforge.com/minecraft/modpacks/bm-exosphere-community-edition)

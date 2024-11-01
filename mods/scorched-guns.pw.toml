@@ -1,0 +1,13 @@
+name = "~SCORCHED GUNS 2~ "
+filename = "ScorchedGuns-0.3.6-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4c05b416d1f6ff1ccf00d7ba4cc26b9ec43ce200"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5862896
+project-id = 802940

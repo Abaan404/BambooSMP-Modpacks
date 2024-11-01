@@ -231,6 +231,10 @@ file = "config/cosmeticarmorreworked-common.toml"
 hash = "ad632cac4e88a5138ae60ff7304bb3586eb93e9d3b34f241e5d532c1e5d19e7e"
 
 [[files]]
+file = "config/create-client.toml"
+hash = "94a162ee5f8a5d33a5c2395eb49833fbb04df0614fb2a0f7e12ba78c71e36566"
+
+[[files]]
 file = "config/cucumber-client.toml"
 hash = "8728108be29b34595d998261b40bba3ffb58f0def0dbe3b5c0e48c4fb708a3bc"
 
@@ -4422,6 +4426,11 @@ hash = "ac2fd14944240e2c6726a32e0dd4e58045dc140cb51203dc106ff1cefd8616a0"
 metafile = true
 
 [[files]]
+file = "mods/botarium.pw.toml"
+hash = "15f70ccb7c7b0ff27ec791788d24de00fc6f6715311644b0fe374f006c9f230e"
+metafile = true
+
+[[files]]
 file = "mods/brandons-core.pw.toml"
 hash = "dcfcb5a0d4132f1baa0f66e824531d1bbcb77c1b7ca2b5d3497514e233564dd8"
 metafile = true
@@ -4552,6 +4561,31 @@ hash = "da102a0fbc86ff69bd3544c1787ca46ccabbdbcdbf471918ef6350d7e3340410"
 metafile = true
 
 [[files]]
+file = "mods/create-big-cannons.pw.toml"
+hash = "b7be94140adb53dd27469efd567efd29d77293a1bf75d44700191083a95c01e5"
+metafile = true
+
+[[files]]
+file = "mods/create-confectionery.pw.toml"
+hash = "7f98e3461e1319ef01a91a8258aa2d932179d0406280d980b356ddbfbef52213"
+metafile = true
+
+[[files]]
+file = "mods/create-industry.pw.toml"
+hash = "eebf94fe197b0c507c81c4b251e49dcceea5b44aa9d23384ba3d7121424680ae"
+metafile = true
+
+[[files]]
+file = "mods/create-love-war.pw.toml"
+hash = "d8cd29ec60092fc04814f82b1f7bbb12f2d811e778a375961e8907c85d6f57e6"
+metafile = true
+
+[[files]]
+file = "mods/create.pw.toml"
+hash = "b916a712a0697a6e62b2d2982f9ce1eeee081ab780465653e8c07d274a4b4826"
+metafile = true
+
+[[files]]
 file = "mods/creativecore.pw.toml"
 hash = "3221907b82661c050ae871126b3bc927579475eb7f2ea632fb100128a2c58102"
 metafile = true
@@ -4573,7 +4607,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "d41c8557243ddcda7d0193ac905d4209ebc4753273b967e6c31ec6874dc0a58c"
+hash = "750841548ae0990fca6a11691760b394623d3316bc1eaad47ad7ee0ec5a906c9"
 metafile = true
 
 [[files]]
@@ -4737,6 +4771,11 @@ hash = "b95281ece6f23d91a71df98b3cb7a84ba0b729d49d74df4062a20687b2cdfbed"
 metafile = true
 
 [[files]]
+file = "mods/estrogen.pw.toml"
+hash = "10a50f135714044601b13d1d00ef979320e2b5672964eaf300f555ea9259a787"
+metafile = true
+
+[[files]]
 file = "mods/explorations.pw.toml"
 hash = "663f15df36a34300cb85730f7764d46f0589901f57e6123fa6ec9a53d776c083"
 metafile = true
@@ -4779,6 +4818,11 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
+metafile = true
+
+[[files]]
+file = "mods/flans-mod-reloaded.pw.toml"
+hash = "edcff5ac3f48e3f33e7193745e8cbf8428bc5bc4ddea5f0629c4e14b172883f4"
 metafile = true
 
 [[files]]
@@ -5188,7 +5232,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "ef0264b7d819848f72ab2f34643306187e712965a8246e1f733e1bd39d8fd681"
+hash = "33c1012df4c3267ee9e70509001739908b2f2c72ae0b2728a750b3516644aa2c"
 metafile = true
 
 [[files]]
@@ -5214,6 +5258,11 @@ metafile = true
 [[files]]
 file = "mods/saturn.pw.toml"
 hash = "f9be8361c39f91dce80420324ac45290a990e8178b83df6bdaa8d69f2c7aa8d4"
+metafile = true
+
+[[files]]
+file = "mods/scorched-guns.pw.toml"
+hash = "090a082ed8fe346a9826f018c44955c2706816bb69ededb5c7d73138d366af68"
 metafile = true
 
 [[files]]
