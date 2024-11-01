@@ -3,3 +3,6 @@
 
 # Exclude README
 /README.md
+
+flake.nix
+flake.lock
