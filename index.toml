@@ -207,6 +207,10 @@ file = "config/comforts-server.toml"
 hash = "24702276d0b1d6f7b5e94b4b34cbc5bd426c524a31bc005231324fc1b7976438"
 
 [[files]]
+file = "config/connectivity.json"
+hash = "27480d5aa1718d29c59cffbcc546afe555a0e7f3043f3ab49e805fe53033f5fe"
+
+[[files]]
 file = "config/constructionwand-client.toml"
 hash = "49dab16d69ef53b3846431d403918762dc0b22a4efba307c80894eeec64a1118"
 
@@ -677,6 +681,10 @@ hash = "fff677b6902d3f938871be5e3964107039672210da42a13845297860d64a1cf1"
 [[files]]
 file = "config/fancymenu/assets/bmlogo/icon_32x32.png"
 hash = "00001644e3f5ece41ea1b22c4948b0a9648e3a2dd16d1a990daecdb0ef2cda97"
+
+[[files]]
+file = "config/fancymenu/assets/exosphere_anim.fma"
+hash = "6d205638954693f3b0b4c0fcdd128f2fa95adce0d193e4e02588c216c75e7442"
 
 [[files]]
 file = "config/fancymenu/assets/icon_16x16.png"
@@ -4299,6 +4307,10 @@ file = "kubejs/startup_scripts/example.js"
 hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
+file = "modlist.txt"
+hash = "79bbcb8bb4432fcacbafc0ce55f3d65fa385e2dc1413b85acf29ad4fcf2539f3"
+
+[[files]]
 file = "mods/a-man-with-plushies.pw.toml"
 hash = "401e68431c4e61b7eb4d37a70efcd86e31489501b7a8422210c3a17c312d9e93"
 metafile = true
@@ -4681,6 +4693,11 @@ metafile = true
 [[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
 hash = "ac6063df22cfd65677177c0b37a7021ff4a3afdcd56ff8a886ff85997ebd1416"
+metafile = true
+
+[[files]]
+file = "mods/dynmapforge.pw.toml"
+hash = "a9df7957db29bd5934360117797e75baa6fc0a12a9ef99c1bddb66a7ad30a7ce"
 metafile = true
 
 [[files]]
