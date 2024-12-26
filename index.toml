@@ -4321,6 +4321,11 @@ hash = "c086607d9dd7248285513ea317cf1351a488a13d13d0dfcad09a0b483795b5f9"
 metafile = true
 
 [[files]]
+file = "mods/aeinfinitybooster.pw.toml"
+hash = "d95d736d272530576a042e3ee4d11c5ecfe9f03d509219f0babe867ed14597b1"
+metafile = true
+
+[[files]]
 file = "mods/all-the-trims.pw.toml"
 hash = "771494578ebb46fbe81cdabfaa4fbb752edae5f0ffa97f93ed9f4af6e0cbe788"
 metafile = true
@@ -4338,6 +4343,16 @@ metafile = true
 [[files]]
 file = "mods/appleskin.pw.toml"
 hash = "8d0321177fed4a0b48554c40158b43db62f6cdaa768f584ef6a11575dfaa6223"
+metafile = true
+
+[[files]]
+file = "mods/applied-botanics-addon.pw.toml"
+hash = "276ce628e43d33191605204300202bae93973005a5ed51eb74908f12ce200253"
+metafile = true
+
+[[files]]
+file = "mods/applied-energistics-2.pw.toml"
+hash = "c7100d21cf1018145253a9b7242d75d576ba6b99e60232ad84072cb48fdb8c98"
 metafile = true
 
 [[files]]
@@ -4796,6 +4811,11 @@ hash = "10a50f135714044601b13d1d00ef979320e2b5672964eaf300f555ea9259a787"
 metafile = true
 
 [[files]]
+file = "mods/ex-pattern-provider.pw.toml"
+hash = "e25a0e07eabee367d50bbd14dd7c45e08417c5e867935cdae7ee15f1c951735e"
+metafile = true
+
+[[files]]
 file = "mods/explorations.pw.toml"
 hash = "663f15df36a34300cb85730f7764d46f0589901f57e6123fa6ec9a53d776c083"
 metafile = true
@@ -4918,6 +4938,11 @@ metafile = true
 [[files]]
 file = "mods/gliders.pw.toml"
 hash = "cb000cdf298c55bffac40d21d720d3ae91d9509486d6ce18a88aae2e596dc6f7"
+metafile = true
+
+[[files]]
+file = "mods/glodium.pw.toml"
+hash = "2a7944b951ebfaa4dcf963c3e2faf43eb8115d99a4390daa49dd8ea6676e8828"
 metafile = true
 
 [[files]]
@@ -5463,6 +5488,11 @@ metafile = true
 [[files]]
 file = "mods/thermal-locomotion.pw.toml"
 hash = "0459cc802d3353342386dfe9455b99587a4dc39ca4007944d71d248517965754"
+metafile = true
+
+[[files]]
+file = "mods/throwable-bricks.pw.toml"
+hash = "046917ce4fc59f0bfcd145e1f76de84377b16c93b3b38d73710436ba4c85b9f7"
 metafile = true
 
 [[files]]

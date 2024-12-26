@@ -1,0 +1,13 @@
+name = "Throwable Bricks"
+filename = "throwable_bricks-1.2.7-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9a3c5774387a2f108058c8f66086e6e36bac4dae"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5633801
+project-id = 1032660

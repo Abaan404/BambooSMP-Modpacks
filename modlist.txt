@@ -2,10 +2,13 @@
 [ETF] Entity Texture Features - [Fabric & Forge]
 A Man With Plushies (AMWPlushies)
 Advanced Mining Dimension
+AEInfinityBooster
 All The Trims
 Amendments
 Another Furniture
 AppleSkin
+Applied Botanics Addon
+Applied Energistics 2
 Architectury API (Fabric/Forge/NeoForge)
 Armor Statues [Forge & Fabric]
 Artifacts
@@ -45,6 +48,7 @@ Collective
 Comforts (Fabric/Forge/Quilt)
 Complementary Shaders - Reimagined
 Complementary Shaders - Unbound
+Connectivity[Forge/Fabric]
 Construction Wand
 Controllable (Forge)
 Controlling
@@ -76,6 +80,7 @@ Drippy Loading Screen
 Dungeons and Taverns
 Durability Tooltip
 Dynamic FPS
+Dynmap-Forge/Fabric
 e4mc
 Easy Anvils [Forge & Fabric]
 Easy Magic [Forge & Fabric]
@@ -95,6 +100,7 @@ Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons
 Enigmatic Graves Fork
 Explorations
 Explorify – Dungeons & Structures
+ExtendedAE
 Extra Disks
 ExtraStorage
 Fairy Lights
@@ -120,6 +126,7 @@ GeckoLib
 Get It Together, Drops!
 Gliders
 Global Packs
+Glodium
 Goblin Traders
 Grappling Hook Mod
 Guard Villagers
@@ -232,6 +239,7 @@ Thermal Foundation
 Thermal Innovation
 Thermal Integration
 Thermal Locomotion
+Throwable Bricks
 Titanium
 Torchmaster
 Towers of the Wild Modded
