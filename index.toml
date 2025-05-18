@@ -1,0 +1,487 @@
+hash-format = "sha256"
+
+[[files]]
+file = "a.py"
+hash = "47d54389d2bcaeeb27eef480561650971b25f51fd6e591ecfe18880b862ff6be"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/placed_feature/acacia_bushes_dense.json"
+hash = "508360af26c1626276f3c9be53710689837d1a04a8c3f421b9abbe0ab585343b"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/placed_feature/azalea_bushes.json"
+hash = "76ab8521a2e139d7d1f422eaa3f50b88c73db1de1e72c09c7cf849eb5ad63d3d"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/placed_feature/basic_grass.json"
+hash = "983fd4869c617776b610eeb2df72028d9edafd1b2a1d2fa3cbf5a5c8c005593e"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/placed_feature/bushes_basic.json"
+hash = "28df8154208ed7b2429b2cb469994452b80b1bb69323006234a9b2f24bfa9dc5"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/placed_feature/bushes_clustered.json"
+hash = "d3c03b7d16fab1534b3c359ed1390b9e97876020dd1f7efb5f3a1a3b0217323a"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/placed_feature/bushes_dense.json"
+hash = "dacf61529829cb2755942aed9d7f7918bb4b3dda934c2f3f4e00d2cb868682ef"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/placed_feature/bushes_super_dense.json"
+hash = "b79885f3795bb2e417fa38e93ddba7aa64d26b9ebecfaea6ae65ce7142b5a89f"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/placed_feature/bushes_taiga.json"
+hash = "faca8743f8bf87976ddae85a776d97c604d620bc185ffbf25c8e71ba69885d86"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/placed_feature/fallen_trees_birch_and_oak.json"
+hash = "f961d81bd355846dfd4e175954d452b19b4b815e62648ddb17c0e53e09ace45b"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/placed_feature/moss_patch.json"
+hash = "31e49e0603c58a38266216db70794268f9012535fc9767163de18b8a41122eb2"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/placed_feature/plains_grass.json"
+hash = "f2d55e561089720931d6fd2dbfa2c3f7d652d4d0a9f0de29fea3d846a0fe299a"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/world_preset/asthenospherical.json"
+hash = "3fa143a9ad12dc1ab10ec6961bd754c79a2d09814b3ffc15266ce3e77a21ec04"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/world_preset/exospherical.json"
+hash = "3fa143a9ad12dc1ab10ec6961bd754c79a2d09814b3ffc15266ce3e77a21ec04"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/world_preset/lithospherical.json"
+hash = "3fa143a9ad12dc1ab10ec6961bd754c79a2d09814b3ffc15266ce3e77a21ec04"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/world_preset/mesospherical.json"
+hash = "3fa143a9ad12dc1ab10ec6961bd754c79a2d09814b3ffc15266ce3e77a21ec04"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/world_preset/ogstratospherical.json"
+hash = "3fa143a9ad12dc1ab10ec6961bd754c79a2d09814b3ffc15266ce3e77a21ec04"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/world_preset/stratospherical.json"
+hash = "3fa143a9ad12dc1ab10ec6961bd754c79a2d09814b3ffc15266ce3e77a21ec04"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/world_preset/thermospherical.json"
+hash = "3fa143a9ad12dc1ab10ec6961bd754c79a2d09814b3ffc15266ce3e77a21ec04"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/eco/worldgen/world_preset/tropospherical.json"
+hash = "3fa143a9ad12dc1ab10ec6961bd754c79a2d09814b3ffc15266ce3e77a21ec04"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/placed_feature/ore_copper.json"
+hash = "0d48363d9c3173fce38ac4f48fa2dcf127fdca9b590dfbb74ffd104adf95a0dc"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/placed_feature/ore_copper_large.json"
+hash = "79819b17813c695dc17d318cbfb12c079b3dd345cf4fe883b5c3287aad7b251b"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/placed_feature/ore_diamond.json"
+hash = "eddb89b6530231f847a0da0fc4fdb0acd7f0cb01a8222f623d6bf2be07d01bc4"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/placed_feature/ore_diamond_buried.json"
+hash = "7de379b135d738c3a402016a87d4bb6059ec8e15908c66c4df89fc31f552b51c"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/placed_feature/ore_diamond_buried_large.json"
+hash = "a9af8dd98532353eb1b8c150845cf4fdb0eb98f886219977e15b49699658f981"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/placed_feature/ore_gold.json"
+hash = "1effe01102f0b60aee45b744e87ad07d4c753c47f4257c7a5494b81f6a7f1712"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/placed_feature/ore_gold_lower.json"
+hash = "2b6e1cc489347020af35923a04c7ccf6f28efaadbd700c8a915fa2e1a2676e6a"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/placed_feature/ore_iron_middle.json"
+hash = "59d76877cdcb53abc41f5dfcd2346218af4073865c3bc17103f1302a1c413d4a"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/placed_feature/ore_iron_small.json"
+hash = "fed069c11e9161060ebc8e4059a012cab98fa429f52ca12a64bd6fb97406f949"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/placed_feature/ore_iron_upper.json"
+hash = "866a39ecad9abe6630447815732140f0083bd6530c110d1dce5c0c42b56b6a10"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/placed_feature/ore_redstone.json"
+hash = "a41c810cd269af95828b9ccd8ce552f411cd03d2348a98c6e5fc6485e4c85043"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/placed_feature/ore_redstone_lower.json"
+hash = "41cbfd21457a3b8d247e97fd7197d260d341a9de2701c3c087030895bff15590"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/structure_set/ancient_cities.json"
+hash = "eef5de1801f2349cdbb29b9409dd94351281ceb70c2afc9b59d8fc057814a1c3"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/structure_set/desert_pyramids.json"
+hash = "4cbe70ed6c61d7d0bfbac60442f1ef72da347b1f42979fdd12b9b4427d9a7f29"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/structure_set/igloos.json"
+hash = "527687dc65ad303ff5f0b73ce99a533cd17fc125313ad4a4f40c4d443a02bb21"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/structure_set/jungle_temples.json"
+hash = "844477a88c4aebe5c97e7292c289ebc6a334f12ce691fb04be27d7ebceb46d03"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/structure_set/mineshafts.json"
+hash = "6013448518374ce793e0819829119ccc3274a76820451eb7083deb93fdf36eef"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/structure_set/pillager_outposts.json"
+hash = "8a5ff6623c0ceb0ef7de01853070e4a83c7592e46217ecc92ecca031801a2810"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/structure_set/ruined_portals.json"
+hash = "153eddf906448b98a51d8adff2345f5682de0d4244a68aa114d3798621721613"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/structure_set/swamp_huts.json"
+hash = "0c8b8fd414afe1ff3cacca5f917d0dd904ab31ee639ec03acfe5f2b42921177a"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/structure_set/trail_ruins.json"
+hash = "adfccbab0ac134f6ac0b9dd4b9dda2b4f98cd98fd78f6fef684ef2e6fd6b2bc7"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/world_preset/normal.json"
+hash = "3fa143a9ad12dc1ab10ec6961bd754c79a2d09814b3ffc15266ce3e77a21ec04"
+
+[[files]]
+file = "global_packs/required_data/Exosphere/pack.mcmeta"
+hash = "d0e39d155b74ec7ae95b8d9e2ba7c2a9bc044f64742279c9735ea772493b2757"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/badlands.json"
+hash = "c11f19ee420feffd44839837680744ede608183c69d9e8dc7f63b3487be216a6"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/bamboo_jungle.json"
+hash = "00c5f8998291cd6b7368662bfb6f9a0447cfee381d93bf98273c35ab423a82c0"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/basalt_deltas.json"
+hash = "7d767e39a85574f2416b8aa64c9ffe23c31b61a32e95b29e2dcdd1a469fe3a49"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/beach.json"
+hash = "b9068460be792793749f51d039ea2196a04a5025b5f4510ad400ade4f1620a4a"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/birch_forest.json"
+hash = "91195cc1dcbc0f6ff5da24b5656cb20d78330fd0f7f01553198cb1439b6e358e"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/cherry_grove.json"
+hash = "dc77dc326459e2fb21f20ae14d94ac84f65a54ad9b93421c3afb6c9460d311a7"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/cold_ocean.json"
+hash = "a4b4b929cd4593e8f5585e1c704e3fa7793c8448089501cac73a19734bad0e90"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/crimson_forest.json"
+hash = "96b3510be30d8ad9a49bc44f1f3baef9ddd684a28fcbaed2f0c13ae567b3221e"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/dark_forest.json"
+hash = "4a4a2a648556387b80da0e5d1a5210338e46e7f47a56c20c142213d4867176ce"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/deep_cold_ocean.json"
+hash = "998a1cf3ced6d65b20a34b6ad21f064ad011540e7a80e63d69b079727d7d5a9e"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/deep_dark.json"
+hash = "3ba335455de4d4b448887b86dc100632d88130d766458b1cd00d0ba1c24acdb7"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/deep_frozen_ocean.json"
+hash = "fff54c7e7be2b6629a468e842033379744014e430ef3057ed6eef3a9e1dbc142"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/deep_lukewarm_ocean.json"
+hash = "874b5346f3f959e38d85dfbfd8ae959384770a39105890adde5ee64132a809b6"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/deep_ocean.json"
+hash = "35ddea075704ded259099b858e4fc4b8f6da83aa0729cb73f0ca36f77cf8dc75"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/desert.json"
+hash = "8cb7e8bf6f88a99a7c3b78bc9a8b1c2a6f8756504f4bd93c8169e6d8820c1717"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/dripstone_caves.json"
+hash = "e637bac716c7a93469d9e7e462c3d1a2242adcb461c868146a690a60266d1a92"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/end_highlands.json"
+hash = "97e0597ba7b8877f314bea70eb1c70a9c6cb9f3c16bcc92a6ca8f429ca8c6e00"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/end_midlands.json"
+hash = "04f96b8173de5bfa219b90b524d031075ab5c57eb5ead4531caa26b01e8d9057"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/eroded_badlands.json"
+hash = "1f0db36c2625fc17e4a28533daf4c77dcc3eb70f4e192dfe27d17313937ed582"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/flower_forest.json"
+hash = "c002db9504c2412dad1d9d82548bf71ab439b55e92f79861f43ccc322ccead5b"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/forest.json"
+hash = "d9c96633ee81d857d47efc03e9823b885be0e10c8439c0b111e023fe36edb96a"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/frozen_ocean.json"
+hash = "09aa8d37042b95e1289818ba531ea2ae678c1eed3d1efa44c686ccccd225d076"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/frozen_peaks.json"
+hash = "dfa9d8c4a42c982c13d330210feaf097877b4ffed2ef7456462229494046fbf6"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/frozen_river.json"
+hash = "9bb555d303112c6b94b67e58ae761eff822e6caca5209e9a8be622b27f03ec78"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/grove.json"
+hash = "a49a8565ba131fa58fcc001619bff5241d1596a18f871fe55a60f0cb394302de"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/ice_spikes.json"
+hash = "d607798560a2a004fe0fa6fc38173817d2612bec1eab53dfb9a6f535937b85b3"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/jagged_peaks.json"
+hash = "ca612c66112c2f0b4317457fdb0df4deb9c8ae15435277908205c0ae7565a299"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/jungle.json"
+hash = "135f4bdfc1567c210a565b892ef9c4b3cc521f78038d954e5b32f9303e3a5023"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/lukewarm_ocean.json"
+hash = "e09fc1445bb9257f79cd6dcb703d81c36e4eeb6a2118f424003491932cd7729a"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/lush_caves.json"
+hash = "7c60a2e294169dbcb6f6eeebadaca548836986a48567662fda7caa327df8bcb8"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/mangrove_swamp.json"
+hash = "ae379f109cde674544875ea87f3753c2d5edca20a5196de59c1db6fe5d492419"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/meadow.json"
+hash = "383f8ffaad0a0afc6a8d1fd480c50685202275bc98012a0afd6070aa7dab88a7"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/mushroom_fields.json"
+hash = "72d74ba1c83b72ebae4caf026f2192f8376c5be81f988396299e1b1bf292763b"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/nether_wastes.json"
+hash = "24f314f2002512a4bd964ad61b2f6b12097e233faec900185cd305316ad38085"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/ocean.json"
+hash = "7eb73534e78ccb4ee810a90077a15179b68f18ca263941e59c0859b3d83b8c88"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/old_growth_birch_forest.json"
+hash = "e1336a8fe058219dc5b901d033e90bc79fdaf7503a121f3293e03681f8631871"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/old_growth_pine_taiga.json"
+hash = "e909c84f686678a214c67f9cb8cb09ed4eff5e81dd1ac7ef5f97fd0509551396"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/old_growth_spruce_taiga.json"
+hash = "2c4d23e7f5e58827c0d1eeed9cfb7285299f0ab8ca94513163fcd46a93912019"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/plains.json"
+hash = "64fb7d8245606bb7b7051431e8889f50b226f36dba93bc83cecae48418c538d2"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/river.json"
+hash = "638fbf182fceceaf761c7149242008f70c0eac7afa6e655f6b40ae10f18aa82c"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/savanna.json"
+hash = "5a0c2e2689ba26d9c396cf163b10d1b5bb66acbffd40481e4d41c738446a44e7"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/savanna_plateau.json"
+hash = "37818f36be8094c337c37885e2d1a75a0fa8aefd47254640794fd9d6da83f7d7"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/snowy_beach.json"
+hash = "a7a333c42a8d43f1ce5ebdbc2914c4233addbd1412689bc573ac4a4d2da9eed9"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/snowy_plains.json"
+hash = "83c1adedb377f1de116a50c0852b8d14b72452c036d67648b57d67ab7d7d4d10"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/snowy_slopes.json"
+hash = "201bc1c2006f1c1683506810ddba732bb3b5581e5798924ab9004de9981b3e3e"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/snowy_taiga.json"
+hash = "978bad2d88c5c517e1dc22b357356101186e5f474d40055b3a08c61fd22daead"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/soul_sand_valley.json"
+hash = "1338e664929336688c61649a458d991ce0bedd689a5e072931e1601132e1d286"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/sparse_jungle.json"
+hash = "6e26bba8b544c9479eb92b1b010d68638c0463cfe5324b8235774432c386e323"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/stony_peaks.json"
+hash = "6597e53f27930054f528a286bc4b6bf39a0a7709392f421f7454e21722f96c48"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/stony_shore.json"
+hash = "630a322688daa81c54d1c3096ac01f8a16e97e5ece06f0322726956725335fda"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/sunflower_plains.json"
+hash = "53a91d1b1cf06fa42b8678d79f515c1923248e913d0dac41e18f830f4438426e"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/swamp.json"
+hash = "206a7612f55af651aa70b280ed683c6097bd155f542c05dd4f6f2650e3389e01"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/taiga.json"
+hash = "4e68a8f4b6acef233f2efcaec3b7b3639d69b16592480162529181fe5eb641cb"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/warm_ocean.json"
+hash = "1f88142b4b431bd293b8a08028209eaafe011f274b51e2d58b9ba6ce6e380196"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/warped_forest.json"
+hash = "5cb01d5d22c3ab65031c76ca902aaed5c13f8910818ce69bfa3ef1f57c22fd1d"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/windswept_forest.json"
+hash = "d4469470554ac377a5e949b0bad761e7d5abaa9eb741081d07f48d293f2c5baf"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/windswept_gravelly_hills.json"
+hash = "8e437221da6a22276b86cbb1138e480497792978af6a3974ec8dd87e052d711d"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/windswept_hills.json"
+hash = "f775df619fea1cc39085de79e7c736e79bdff167647023b2f63f9a791b1a6356"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/windswept_savanna.json"
+hash = "12f1b22dcced7c0e2861eda26e7d8bf5bd3ea9bfd5488a8999efd1b6ee42bfce"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/wooded_badlands.json"
+hash = "990498d7edccd0f472d19d08298fa06d078646a9e9d6de5c73e715352723822e"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/ore_geodes/worldgen/configured_feature/coal_geode.json"
+hash = "250d07b199314e8df09e49cf415b80a8c6dcaeb8d2a84501c1e45cc94e9101b1"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/ore_geodes/worldgen/configured_feature/copper_geode.json"
+hash = "d8674f996e26e187a1e7f8466e9980fdb775a672169bc397803dee99d1d562f6"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/ore_geodes/worldgen/configured_feature/diamond_geode.json"
+hash = "a20e0cb6ae9253b1a19b7c57942d356c1c7ca6963b3eddc9c9182fa61fcffb13"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/ore_geodes/worldgen/configured_feature/gold_geode.json"
+hash = "77d197e1f6665569366e33f3b39b3a606bc1d75b9283f1d644a9fd23fc999d40"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/ore_geodes/worldgen/configured_feature/iron_geode.json"
+hash = "eb6d8d8fbd020fe21c8cc24e23db96ab380a81c8ac1d8a4edf866844bd59ef0a"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/ore_geodes/worldgen/configured_feature/nether_geode.json"
+hash = "e299a85da9b19decf9ea1e67913ea86bea55c8fa675d8dd38b14c91f6e41914a"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/ore_geodes/worldgen/configured_feature/redstone_geode.json"
+hash = "aa016125c5768214570b446f8c622e4326099831783884a324f2eb9ca1b4d44a"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/ore_geodes/worldgen/placed_feature/coal_geode.json"
+hash = "ccc0cf22c254b8c9865e1c56ee026e5ffaf7d939d42cac4b29a2724eba3ab9b7"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/ore_geodes/worldgen/placed_feature/copper_geode.json"
+hash = "c3556a3f122e177da342d8990cbb137f4415703a6f5ca82d16bc781d962e25d2"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/ore_geodes/worldgen/placed_feature/diamond_geode.json"
+hash = "dfb590c71ada16ecdcc2488b6c2fc0f35edad67188e8855828b66255056d5847"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/ore_geodes/worldgen/placed_feature/gold_geode.json"
+hash = "f1ccc4700c927b70f85e0d37802a2cf5c1e61a85424d8796f0bf73270218cc01"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/ore_geodes/worldgen/placed_feature/iron_geode.json"
+hash = "75b998d73d5ce5b0fddacbb2c06bfdb30512e6fc56a8eab1f841ddde7a17990e"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/ore_geodes/worldgen/placed_feature/nether_geode.json"
+hash = "bff2ecbb7c287192928dd8eb55d3554e4b9d3d5b1b83f74debcfae33fa5a5459"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/data/ore_geodes/worldgen/placed_feature/redstone_geode.json"
+hash = "a1abae657dd1489489abb291672be871620dcc0a6b70f38174c640ed1a206920"
+
+[[files]]
+file = "global_packs/required_data/extra_geodes/pack.mcmeta"
+hash = "d0e39d155b74ec7ae95b8d9e2ba7c2a9bc044f64742279c9735ea772493b2757"
+
+[[files]]
+file = "icon.png"
+hash = "d977901cde5160811019989354c9fe6144883a6ccb417ee32abbbd3c37870b89"
+
+[[files]]
+file = "mods/drp-global-datapack.pw.toml"
+hash = "e10ad8b56bdc0b6ad36551004d7d5cde964cf6ea232dd356c3d2b99982715a70"
+metafile = true
+
+[[files]]
+file = "mods/ecospherical-expansion.pw.toml"
+hash = "da6f893feb4b9a720edd2115c7c4296e5681dee4a6b5078cb006ca7a71a76f19"
+metafile = true

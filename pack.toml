@@ -1,0 +1,12 @@
+name = "BambooSMP - WAP s3.5"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a1bc7276d15b4812e152790d0e21ad1b8239895665ef0b19f326c892b9c665a2"
+
+[versions]
+minecraft = "1.20.1"
+neoforge = "47.1.106"
