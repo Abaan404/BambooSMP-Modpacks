@@ -1,0 +1,13 @@
+name = "Captcha"
+filename = "Captcha-forge-1.20.1-5.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ccf8b228173fabc8119fa24c5e8e8eaacad59611"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5313683
+project-id = 582784

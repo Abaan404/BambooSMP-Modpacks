@@ -488,8 +488,23 @@ hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
 metafile = true
 
 [[files]]
+file = "mods/automobility.pw.toml"
+hash = "5e3ff30d77ab34aba80c887c01838d408a20e4730726c98feffbf15c568a7b5b"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "f0cf1862641bfce6c522d835f18304a10d5771b821f7d1b8ed8d9a929cb66af0"
+metafile = true
+
+[[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+hash = "dc45e2a3431d818f9bb2b7217a62e62ec8f455ca37b9f4f35947d2c442bad42b"
+metafile = true
+
+[[files]]
+file = "mods/captcha.pw.toml"
+hash = "3eb28bb1388e117ab509756dacac261c0bbe104e4db1cb844eb3131176d5133a"
 metafile = true
 
 [[files]]
@@ -508,6 +523,11 @@ hash = "8708549001bab45590a8560d7c0dd9b0859e416887f7b63b3edd2c09d05246e5"
 metafile = true
 
 [[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "96204145e12506e0625d8b9bfa05aad54e9a62fd511bae39f0d57fcb5e39f4cc"
+metafile = true
+
+[[files]]
 file = "mods/clumps.pw.toml"
 hash = "e3173aaa4e9078ad7ace2b9ef43ce15ce9919c0b566d8830cea87264f92b3a6a"
 metafile = true
@@ -518,6 +538,11 @@ hash = "b110d17098d959631ac663a006fe3145784048d5b443483189949ad8240fb82c"
 metafile = true
 
 [[files]]
+file = "mods/controlling.pw.toml"
+hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
+metafile = true
+
+[[files]]
 file = "mods/copycats.pw.toml"
 hash = "97de09e03269bb98e10bd9d2a18e7dffff337fda987f72a5af81f547683f44be"
 metafile = true
@@ -525,6 +550,16 @@ metafile = true
 [[files]]
 file = "mods/create-armor-trim.pw.toml"
 hash = "c551801e102828995719d33b89c133262c7a03e928350d1508493eb7a1c18c28"
+metafile = true
+
+[[files]]
+file = "mods/create-central-kitchen.pw.toml"
+hash = "b6a72e03796007d5a6eabc4451753d0cb3fcd162c0c5da44be595ae22627f30e"
+metafile = true
+
+[[files]]
+file = "mods/create-confectionery.pw.toml"
+hash = "7f98e3461e1319ef01a91a8258aa2d932179d0406280d980b356ddbfbef52213"
 metafile = true
 
 [[files]]
@@ -543,6 +578,11 @@ hash = "77cc97055c62c20185c31781c0be40db248dc04a728085bec7cfea37d018df16"
 metafile = true
 
 [[files]]
+file = "mods/create-escalated.pw.toml"
+hash = "881a025d44c6520a8e2cf0cf1932ba7c3b4b2ee90372f4162907622eff8b4794"
+metafile = true
+
+[[files]]
 file = "mods/create-food.pw.toml"
 hash = "9be747a5beda6b5b16e09ad43d1d5986804b727015adcf3464a7ccfd5500ec51"
 metafile = true
@@ -555,6 +595,11 @@ metafile = true
 [[files]]
 file = "mods/create-jetpack.pw.toml"
 hash = "55679c6e6cd09b65a3e520adedd12679c0add5f0aba6fcaea31e8745e2cb00d2"
+metafile = true
+
+[[files]]
+file = "mods/create-mobile-packages.pw.toml"
+hash = "4d9eac0dd3a0b6edb2c60741ce07ecdb23601b09cf38eedc0473622db9c7df63"
 metafile = true
 
 [[files]]
@@ -653,13 +698,13 @@ hash = "9c2de144691d57dc2c1833b131da1d3102713cb12020dddce03558ec8b65a3b8"
 metafile = true
 
 [[files]]
-file = "mods/flans-mod-reloaded.pw.toml"
-hash = "6b0dcebd93c1181543720d529ae8f8daf3350c7ab59cf4a20f0519824f639531"
+file = "mods/garnished.pw.toml"
+hash = "73702d36cf62bbd18dbfe60ef402a32fedc7600a3e4f4549109f406f721ae166"
 metafile = true
 
 [[files]]
-file = "mods/garnished.pw.toml"
-hash = "73702d36cf62bbd18dbfe60ef402a32fedc7600a3e4f4549109f406f721ae166"
+file = "mods/grappling-hook-mod.pw.toml"
+hash = "e0607c5e42eb3e9e9f535e4a71392261f3a9ee4f6f84850d5490ff48f82f1ca8"
 metafile = true
 
 [[files]]
@@ -705,6 +750,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "fd35eb8e67f11aec4ae71465ac1b2d9599039d1b3efd8f463655b58f744b5a09"
+metafile = true
+
+[[files]]
+file = "mods/just-zoom.pw.toml"
+hash = "d4a290a9bd2da03a76e63563669d76d9483d00adc77c0d5ba1d72fe4d5eaa69e"
 metafile = true
 
 [[files]]
@@ -825,6 +875,11 @@ metafile = true
 [[files]]
 file = "mods/rrls.pw.toml"
 hash = "3dbc10daf7a2ebcbc7ff240931d5fada41900930183d48e3996d893a218f544d"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "2cb8dd9a3944a6430b49916a4fe1b6cf0bd7efd907054f8e679a02717149404f"
 metafile = true
 
 [[files]]
