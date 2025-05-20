@@ -82,7 +82,7 @@ hash = "0d48363d9c3173fce38ac4f48fa2dcf127fdca9b590dfbb74ffd104adf95a0dc"
 
 [[files]]
 file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/placed_feature/ore_copper_large.json"
-hash = "79819b17813c695dc17d318cbfb12c079b3dd345cf4fe883b5c3287aad7b251b"
+hash = "85fe582e27c6c10d629ff29717f350c7e5dd043bb7d09f5f16580d4033f3ff7f"
 
 [[files]]
 file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/placed_feature/ore_diamond.json"
@@ -614,17 +614,17 @@ metafile = true
 
 [[files]]
 file = "mods/create-more-automation.pw.toml"
-hash = "dae263767e4cdde218ccc7f2c72b527059de3bc61d202a5fad68a1c8b5d59a57"
-metafile = true
-
-[[files]]
-file = "mods/create-oxidized.pw.toml"
-hash = "2d94a0e80609e41f862b3a1621f1481e0e25db547e0ce2935cb4f48695726658"
+hash = "d1b4408c32881114702ac99c519c162b0453227da7d8faff567fb71bb91d67dd"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
 hash = "04eff00e4383097d9809dec31ab08976a4516fd5a2fe348b88a532507f68e6ba"
+metafile = true
+
+[[files]]
+file = "mods/create_oxidized.pw.toml"
+hash = "46a8e2d0b10f2c1aec37850dccea50c99ebbf8435108b246017bddeb2b12e847"
 metafile = true
 
 [[files]]
