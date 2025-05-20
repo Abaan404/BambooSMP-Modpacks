@@ -1,0 +1,13 @@
+name = "DragNSounds API"
+filename = "dragnsounds-forge-1.20.1-beta-0.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cd6fa6396fa8a36172a4e2db85498e260edaed74"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6225685
+project-id = 1050124

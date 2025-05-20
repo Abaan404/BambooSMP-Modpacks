@@ -498,6 +498,11 @@ hash = "f0cf1862641bfce6c522d835f18304a10d5771b821f7d1b8ed8d9a929cb66af0"
 metafile = true
 
 [[files]]
+file = "mods/blockbeats.pw.toml"
+hash = "c6c219134039c55ed220da93c777f61345c81a009107ac88d3abacca9c24d514"
+metafile = true
+
+[[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "dc45e2a3431d818f9bb2b7217a62e62ec8f455ca37b9f4f35947d2c442bad42b"
 metafile = true
@@ -598,8 +603,23 @@ hash = "55679c6e6cd09b65a3e520adedd12679c0add5f0aba6fcaea31e8745e2cb00d2"
 metafile = true
 
 [[files]]
+file = "mods/create-liquid-fuel.pw.toml"
+hash = "ca274f1a31ba6fdf3ce7fc4a14e5d6ffcaa19c711595d98d87deb1d9fe365727"
+metafile = true
+
+[[files]]
 file = "mods/create-mobile-packages.pw.toml"
 hash = "4d9eac0dd3a0b6edb2c60741ce07ecdb23601b09cf38eedc0473622db9c7df63"
+metafile = true
+
+[[files]]
+file = "mods/create-more-automation.pw.toml"
+hash = "dae263767e4cdde218ccc7f2c72b527059de3bc61d202a5fad68a1c8b5d59a57"
+metafile = true
+
+[[files]]
+file = "mods/create-oxidized.pw.toml"
+hash = "2d94a0e80609e41f862b3a1621f1481e0e25db547e0ce2935cb4f48695726658"
 metafile = true
 
 [[files]]
@@ -618,6 +638,11 @@ hash = "2eb26b157c4159bfeff6a00147afa35284397d558f84b55367d1a41064d7456a"
 metafile = true
 
 [[files]]
+file = "mods/curios.pw.toml"
+hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
+metafile = true
+
+[[files]]
 file = "mods/cut-through.pw.toml"
 hash = "e1eb9c8386bc3ec75f1dcc14ff420b1a2e64aa2553678cb5ccfa945966280c82"
 metafile = true
@@ -630,6 +655,11 @@ metafile = true
 [[files]]
 file = "mods/ding.pw.toml"
 hash = "abf68c7b90b93d7223c6ed856e7a4ae89ebdccf7780277e4de6aa3d707f7e27f"
+metafile = true
+
+[[files]]
+file = "mods/dragnsounds-api.pw.toml"
+hash = "6e4370ea6e1d2f5ebe89acb0c12871295f7bf90682de1c032dfb9f36a013cc16"
 metafile = true
 
 [[files]]
@@ -698,8 +728,18 @@ hash = "9c2de144691d57dc2c1833b131da1d3102713cb12020dddce03558ec8b65a3b8"
 metafile = true
 
 [[files]]
+file = "mods/framework.pw.toml"
+hash = "376f8a190f00bd120193d7a665ebe1b03dfe329cc395f7d944f7216c1182c84d"
+metafile = true
+
+[[files]]
 file = "mods/garnished.pw.toml"
 hash = "73702d36cf62bbd18dbfe60ef402a32fedc7600a3e4f4549109f406f721ae166"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "598758f152e98916bc6eea2ad73a82b47a6e6934f4b0ba1e1f6593773afd1a50"
 metafile = true
 
 [[files]]
@@ -730,6 +770,16 @@ metafile = true
 [[files]]
 file = "mods/immersive-aircraft.pw.toml"
 hash = "9406e74a2166c58db37c0ba2a29da94723d0c158b05cc6bf22355f7855a27709"
+metafile = true
+
+[[files]]
+file = "mods/immersive-melodies.pw.toml"
+hash = "2ec92ca7b01670028f011fa00ff76b983cea1280189ca4e205fbf258698cd843"
+metafile = true
+
+[[files]]
+file = "mods/immersive-paintings.pw.toml"
+hash = "9bd757c1ac41f77280b388da33a76fec9712c8f15cf914a13e5e664773191d1a"
 metafile = true
 
 [[files]]
@@ -875,6 +925,11 @@ metafile = true
 [[files]]
 file = "mods/rrls.pw.toml"
 hash = "3dbc10daf7a2ebcbc7ff240931d5fada41900930183d48e3996d893a218f544d"
+metafile = true
+
+[[files]]
+file = "mods/scorched-guns.pw.toml"
+hash = "ca8d27ef699ec4e8b5543669a6f6a1ee2e08430308b1b59820ed31ad9f54d22b"
 metafile = true
 
 [[files]]

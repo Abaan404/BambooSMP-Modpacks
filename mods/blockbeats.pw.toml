@@ -1,0 +1,13 @@
+name = "BlockBeats"
+filename = "blockbeats-forge-1.20.1-beta-0.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2bac792345428312713be738bfbf75a0680f79b3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6080121
+project-id = 1050389
