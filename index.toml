@@ -82,7 +82,7 @@ hash = "0d48363d9c3173fce38ac4f48fa2dcf127fdca9b590dfbb74ffd104adf95a0dc"
 
 [[files]]
 file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/placed_feature/ore_copper_large.json"
-hash = "85fe582e27c6c10d629ff29717f350c7e5dd043bb7d09f5f16580d4033f3ff7f"
+hash = "79819b17813c695dc17d318cbfb12c079b3dd345cf4fe883b5c3287aad7b251b"
 
 [[files]]
 file = "global_packs/required_data/Exosphere/data/minecraft/worldgen/placed_feature/ore_diamond.json"
@@ -523,6 +523,11 @@ hash = "4fd14b860b891ddb3b3aa8d8be3482da806ddd26c3fd37675c6b7be1f3a23e8e"
 metafile = true
 
 [[files]]
+file = "mods/chunky-pregenerator-forge.pw.toml"
+hash = "7d3fded0a343b2953e2a77fd1d2ed7abc547d7008f5b1b842546f28b8df1b802"
+metafile = true
+
+[[files]]
 file = "mods/client-crafting.pw.toml"
 hash = "8708549001bab45590a8560d7c0dd9b0859e416887f7b63b3edd2c09d05246e5"
 metafile = true
@@ -645,6 +650,11 @@ metafile = true
 [[files]]
 file = "mods/cut-through.pw.toml"
 hash = "e1eb9c8386bc3ec75f1dcc14ff420b1a2e64aa2553678cb5ccfa945966280c82"
+metafile = true
+
+[[files]]
+file = "mods/dcintegration.pw.toml"
+hash = "8c04f9fd776591ebe8050f7504f23ef5b36f16507d95107b1c53ff408b01b3f8"
 metafile = true
 
 [[files]]
