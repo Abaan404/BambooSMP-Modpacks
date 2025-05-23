@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/immersive_aircraft.json"
+hash = "c6c719b6d2bf809818587bab0d9f91c63ab2c59c5508bf52f407dda040948e43"
+
+[[files]]
 file = "global_packs/required_data/Exosphere/data/eco/worldgen/placed_feature/acacia_bushes_dense.json"
 hash = "508360af26c1626276f3c9be53710689837d1a04a8c3f421b9abbe0ab585343b"
 
@@ -167,6 +171,14 @@ hash = "3fa143a9ad12dc1ab10ec6961bd754c79a2d09814b3ffc15266ce3e77a21ec04"
 [[files]]
 file = "global_packs/required_data/Exosphere/pack.mcmeta"
 hash = "d0e39d155b74ec7ae95b8d9e2ba7c2a9bc044f64742279c9735ea772493b2757"
+
+[[files]]
+file = "global_packs/required_data/another_overworld/data/abaan404/dimension/anotheroverworld.json"
+hash = "abfc000326cc4880ca422adbed1936aa82066d6a6a318d4b97e6e0829240fddb"
+
+[[files]]
+file = "global_packs/required_data/another_overworld/pack.mcmeta"
+hash = "f935e32547ec899ff7303a118b2dad12eefba468cfca209c0776c623c0b68a0f"
 
 [[files]]
 file = "global_packs/required_data/extra_geodes/data/minecraft/worldgen/biome/badlands.json"
@@ -473,6 +485,10 @@ file = "icon.png"
 hash = "d977901cde5160811019989354c9fe6144883a6ccb417ee32abbbd3c37870b89"
 
 [[files]]
+file = "kubejs/startup_scripts/portal.js"
+hash = "2fdb08a9f0efceebeea13b743835b9625dc1ea315d12e72aacc11d1bf649ae40"
+
+[[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "2362e168d550f0a3a3bea1715a495d7c54fe6e9f159b948981eae15c53df597c"
 metafile = true
@@ -648,6 +664,11 @@ hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
 metafile = true
 
 [[files]]
+file = "mods/custom-portal-api-reforged.pw.toml"
+hash = "82e4f8eed317be05c6f78d8409daa0a5217aa2dea85ba7ead96fe085b9cee8b6"
+metafile = true
+
+[[files]]
 file = "mods/cut-through.pw.toml"
 hash = "e1eb9c8386bc3ec75f1dcc14ff420b1a2e64aa2553678cb5ccfa945966280c82"
 metafile = true
@@ -743,6 +764,11 @@ hash = "376f8a190f00bd120193d7a665ebe1b03dfe329cc395f7d944f7216c1182c84d"
 metafile = true
 
 [[files]]
+file = "mods/fullbright-forge.pw.toml"
+hash = "383a0b7268f7ef509c9345ca7a51bf2bd86677b9b04f6131c69d8c93678bd5e4"
+metafile = true
+
+[[files]]
 file = "mods/garnished.pw.toml"
 hash = "73702d36cf62bbd18dbfe60ef402a32fedc7600a3e4f4549109f406f721ae166"
 metafile = true
@@ -755,6 +781,11 @@ metafile = true
 [[files]]
 file = "mods/grappling-hook-mod.pw.toml"
 hash = "e0607c5e42eb3e9e9f535e4a71392261f3a9ee4f6f84850d5490ff48f82f1ca8"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "acf1aceab8c44817b0c376a99d2019614e0471d3d1a9cb2f40943fec03f05fbf"
 metafile = true
 
 [[files]]
@@ -830,6 +861,11 @@ metafile = true
 [[files]]
 file = "mods/krypton-reforged.pw.toml"
 hash = "ba2f214504381c53f588e1a52d8be657b47ed53a256b45d623cea2c724748afa"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "873d23ad2ce05e3e92a05e011f3f9a375a745a4ca6ed4c9fffb0518fc8255bf7"
 metafile = true
 
 [[files]]
@@ -933,6 +969,11 @@ hash = "ef0264b7d819848f72ab2f34643306187e712965a8246e1f733e1bd39d8fd681"
 metafile = true
 
 [[files]]
+file = "mods/rhino.pw.toml"
+hash = "ca4411ac6d8a9a892948bb63cd0ba52ae5523ca5e257632d6ae8c933b660c5ee"
+metafile = true
+
+[[files]]
 file = "mods/rrls.pw.toml"
 hash = "3dbc10daf7a2ebcbc7ff240931d5fada41900930183d48e3996d893a218f544d"
 metafile = true
@@ -965,6 +1006,16 @@ metafile = true
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "ebc991519db80f7009e67023483354bb562ee939eeac754cf4cb290e29d01761"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "3466500d3d5e0582ef44b24b3ae5596790b430b9a7ee784d1a6a0f48105c4598"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "ad786c4347011d61febf00111288c9862c8d98eb3bd5b3b24a7525462a9242a3"
 metafile = true
 
 [[files]]

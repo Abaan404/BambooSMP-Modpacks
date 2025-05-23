@@ -1,0 +1,13 @@
+name = "Fullbright"
+filename = "fullbright-1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/L5dyCzCT/versions/BtCu6IpN/fullbright-1.0.jar"
+hash-format = "sha512"
+hash = "12ef98fcb272f3af76cd7941d58718652fdcda3e1a6a610af4000454bb9387db008df362014c570a7c5a580d765b5237d506000939a683244d4894e99c097f18"
+
+[update]
+[update.modrinth]
+mod-id = "L5dyCzCT"
+version = "BtCu6IpN"
