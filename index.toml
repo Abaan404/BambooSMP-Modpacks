@@ -5,6 +5,10 @@ file = "config/immersive_aircraft.json"
 hash = "c6c719b6d2bf809818587bab0d9f91c63ab2c59c5508bf52f407dda040948e43"
 
 [[files]]
+file = "config/scguns-common.toml"
+hash = "58937c53bd828b12827f88f5c41a35e1d59178e202f31e48be28b54a8b33760a"
+
+[[files]]
 file = "global_packs/required_data/Exosphere/data/eco/worldgen/placed_feature/acacia_bushes_dense.json"
 hash = "508360af26c1626276f3c9be53710689837d1a04a8c3f421b9abbe0ab585343b"
 
@@ -489,6 +493,11 @@ file = "kubejs/startup_scripts/portal.js"
 hash = "2fdb08a9f0efceebeea13b743835b9625dc1ea315d12e72aacc11d1bf649ae40"
 
 [[files]]
+file = "mods/advanced-backups.pw.toml"
+hash = "cbc8db716459ff5804441400382314acc303919f6357ec09c708e4cb75efe9cc"
+metafile = true
+
+[[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "2362e168d550f0a3a3bea1715a495d7c54fe6e9f159b948981eae15c53df597c"
 metafile = true
@@ -599,6 +608,16 @@ hash = "fee58a333eaf51d4862fee34fe8ba7cb70140500023e06aca3c9fcf0e0f34719"
 metafile = true
 
 [[files]]
+file = "mods/create-easy-structures.pw.toml"
+hash = "68069a63ebbff63d18a9e8242745ca342b1649e07944291e8e5e24ba74946b25"
+metafile = true
+
+[[files]]
+file = "mods/create-enchantable-machinery.pw.toml"
+hash = "52b890e4c70f29f3b698937a0984cf32bc0361c37fc24b7f3c91a6395fbc18de"
+metafile = true
+
+[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "77cc97055c62c20185c31781c0be40db248dc04a728085bec7cfea37d018df16"
 metafile = true
@@ -619,8 +638,18 @@ hash = "78f2bef5055785f575721f45fc38619bccf578c6c1499e477f4a8631efd50392"
 metafile = true
 
 [[files]]
+file = "mods/create-industry.pw.toml"
+hash = "a9bc006cc6fb97d57d4875b6ce84f76674aa715cca7d0b6fe011d363ecd81882"
+metafile = true
+
+[[files]]
 file = "mods/create-jetpack.pw.toml"
 hash = "55679c6e6cd09b65a3e520adedd12679c0add5f0aba6fcaea31e8745e2cb00d2"
+metafile = true
+
+[[files]]
+file = "mods/create-let-the-adventure-begin.pw.toml"
+hash = "876b9e84dfcde013fca2e0538c98ce8ea7b9c80d544d1f447ba7c1f937fa7125"
 metafile = true
 
 [[files]]
@@ -696,6 +725,11 @@ metafile = true
 [[files]]
 file = "mods/drp-global-datapack.pw.toml"
 hash = "e10ad8b56bdc0b6ad36551004d7d5cde964cf6ea232dd356c3d2b99982715a70"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-village.pw.toml"
+hash = "220eab9b6237a88037f5192c8f63670ed1fd0a54ca990ab8dc99099ef14b8ba0"
 metafile = true
 
 [[files]]
@@ -914,6 +948,11 @@ hash = "1d602996f39fb6103a5b968f50ec06800db7125b145570474c9c10e6dcd0c68e"
 metafile = true
 
 [[files]]
+file = "mods/observable.pw.toml"
+hash = "5d0eae777859369335212a6a68a0c835fc7487ace8016749fe9f377de1c4b392"
+metafile = true
+
+[[files]]
 file = "mods/oculus.pw.toml"
 hash = "5ef885f9912ff6aa73db254b63a3cd22520f06261bc3c38e7c92f449806a9044"
 metafile = true
@@ -1036,6 +1075,11 @@ metafile = true
 [[files]]
 file = "mods/txnilib.pw.toml"
 hash = "7149b1beafef2ce275da37dd5ca2e12f5527ad979420630ecdef5bcabd4fef32"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.pw.toml"
+hash = "bd1dc13316e2aa9b56c89e7e974057f8da8d6bbfe707ba4210109fc612b782e3"
 metafile = true
 
 [[files]]
