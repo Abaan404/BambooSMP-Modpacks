@@ -1,0 +1,59 @@
+worlds:
+  - name: abaan404_anotheroverworld
+    enabled: false
+
+  - name: world
+    title: "Overworld"
+    visibilitylimits:
+    - x0: -5000
+      z0: -5000
+      x1: 5000
+      z1: 5000
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: "Flat"
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: "Surface"
+        prefix: t
+        perspective: iso_SE_30_hires
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+
+  - name: DIM-1
+    title: "Nether"
+    visibilitylimits:
+    - x0: -2500
+      z0: -2500
+      x1: 2500
+      z1: 2500
+    maps:
+    - class: org.dynmap.hdmap.HDMap
+      name: flat
+      title: "Flat"
+      prefix: flat
+      perspective: iso_S_90_lowres
+      shader: stdtexture
+      lighting: nethershadows
+      # Map background color (day or night)
+      background: "#300806"
+      mapzoomin: 1
+
+  - name: DIM1
+    title: "The End"
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: "Flat"
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1

@@ -9,6 +9,62 @@ file = "config/scguns-common.toml"
 hash = "58937c53bd828b12827f88f5c41a35e1d59178e202f31e48be28b54a8b33760a"
 
 [[files]]
+file = "dynmap/configuration.txt"
+hash = "28f18c8e95e46d4bfdd58a39b1bbb4f886e8e5158772efe7bd0fa6f6328b88b8"
+
+[[files]]
+file = "dynmap/web/favicon.ico"
+hash = "9fd7b7501df7241c5564b6840ea018218b329270ac4c95a8952277cae36f0508"
+
+[[files]]
+file = "dynmap/web/images/blank.png"
+hash = "afdb4d992bf58221c8e2d0d1b92d32d77b9332210aee62f3bd74102627bd0d0c"
+
+[[files]]
+file = "dynmap/web/index.html"
+hash = "af01e07a94785663e90759eb66236877eb2be6b85c849de96524acb6b0511a0a"
+
+[[files]]
+file = "dynmap/web/live-atlas-3.1.0.zip"
+hash = "aff741162315130cc9507bbde0482efa7ebf37497cd319175c6932dbc5e391fa"
+
+[[files]]
+file = "dynmap/web/live-atlas/assets/index.1de34b3a.css"
+hash = "92321b3701ebde34eddabebfd007f0584787e590359129a80fba549632e85841"
+
+[[files]]
+file = "dynmap/web/live-atlas/assets/index.a82d2095.js"
+hash = "cb46b329b8e9a2de99f8f5f57fd8715b86dd8dd0abf59daac3bb48fc618abaad"
+
+[[files]]
+file = "dynmap/web/live-atlas/assets/vendor.d0ab50b1.js"
+hash = "0c8f6ba4c9b432f00f0fb354b7d82ae85f00ad985b60a39b59e0d1d2434ff142"
+
+[[files]]
+file = "dynmap/web/live-atlas/favicons/android-chrome-512x512.png"
+hash = "c0bf86c9b7f506c020e1cafb02344ae118df365574cfd9af0ad0ceb41fc87f48"
+
+[[files]]
+file = "dynmap/web/live-atlas/favicons/apple-touch-icon.png"
+hash = "f4ba8d8c63b00443efeed69c46477d6b2a4c582c373c54ede3b3c52c73937566"
+
+[[files]]
+file = "dynmap/web/live-atlas/favicons/favicon.svg"
+hash = "5f8075104cd82e6f5f72cf5dae760a51d884761c76798670f4062eff71c68579"
+
+[[files]]
+file = "dynmap/web/live-atlas/favicons/mask.svg"
+hash = "72bf58b7607b56f3c802dd4c4adbbc79f81e1f06f207cfbb0a4613c1da44d1dd"
+
+[[files]]
+file = "dynmap/web/live-atlas/favicons/site.webmanifest"
+hash = "b86442d7d861c7fca71a67fe574e88a890b9d726b2fc7a14c072c6dff4aad80f"
+
+[[files]]
+file = "dynmap/worlds.txt"
+hash = "9b22f13d7ce48c27f3bcf22bf23c2746072431e0a3ff5ec0e5429f88c7aec197"
+
+[[files]]
 file = "global_packs/required_data/Exosphere/data/eco/worldgen/placed_feature/acacia_bushes_dense.json"
 hash = "508360af26c1626276f3c9be53710689837d1a04a8c3f421b9abbe0ab585343b"
 
