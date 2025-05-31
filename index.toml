@@ -964,6 +964,11 @@ hash = "bbba6ac677c4e82b397501e4db188fadcafc4dacff02b835e4b8a44ffcc9a3c7"
 metafile = true
 
 [[files]]
+file = "mods/lootr.pw.toml"
+hash = "a3fc2800be76f3406961d01ab4ab6805b4ca5e269f53d3cb2d58ea39d6afa9f2"
+metafile = true
+
+[[files]]
 file = "mods/luckperms.pw.toml"
 hash = "43f3579c8b58086be64f32a90479ff5ba779c4ec602ce04e7ea0c77cc4e0b721"
 metafile = true
