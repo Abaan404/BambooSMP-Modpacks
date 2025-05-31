@@ -545,11 +545,6 @@ hash = "dc45e2a3431d818f9bb2b7217a62e62ec8f455ca37b9f4f35947d2c442bad42b"
 metafile = true
 
 [[files]]
-file = "mods/captcha.pw.toml"
-hash = "3eb28bb1388e117ab509756dacac261c0bbe104e4db1cb844eb3131176d5133a"
-metafile = true
-
-[[files]]
 file = "mods/chipped.pw.toml"
 hash = "71a33fe41bead909b3e95643351ef8015def70d3cb083916469f492f66434b45"
 metafile = true
@@ -770,6 +765,11 @@ hash = "f3e80a5b8992883cdad15ec2e431152ae67c48db3a131a7b1b5ce705da3f89f2"
 metafile = true
 
 [[files]]
+file = "mods/fairy-lights.pw.toml"
+hash = "eeca094798607a0393a5ec261a0f3298e20fa74b0daa879951aec47c2c7fe64b"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "ba6c13e70f06dde3b8d01d4143c22fea36ec035d7cd8834c7a82aa778a809467"
 metafile = true
@@ -805,6 +805,11 @@ hash = "9c2de144691d57dc2c1833b131da1d3102713cb12020dddce03558ec8b65a3b8"
 metafile = true
 
 [[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "3906d79212d26da8569ad46ae6bff34f8af0b3bc0a1ec6b658c8bf7a07b939d8"
+metafile = true
+
+[[files]]
 file = "mods/framework.pw.toml"
 hash = "376f8a190f00bd120193d7a665ebe1b03dfe329cc395f7d944f7216c1182c84d"
 metafile = true
@@ -825,8 +830,8 @@ hash = "598758f152e98916bc6eea2ad73a82b47a6e6934f4b0ba1e1f6593773afd1a50"
 metafile = true
 
 [[files]]
-file = "mods/grappling-hook-mod.pw.toml"
-hash = "e0607c5e42eb3e9e9f535e4a71392261f3a9ee4f6f84850d5490ff48f82f1ca8"
+file = "mods/grappling-hook-restitched.pw.toml"
+hash = "264e085b17e6b29f95c4d3d19e0534808367c2f995fcbc9ca016b7be9e08a196"
 metafile = true
 
 [[files]]
@@ -872,6 +877,11 @@ metafile = true
 [[files]]
 file = "mods/interiors.pw.toml"
 hash = "588e222f5cf824fb8317bd3800752c8a4a86f3c707f70b35420f8c9a9599fe43"
+metafile = true
+
+[[files]]
+file = "mods/inventory-tweaks-refoxed.pw.toml"
+hash = "b69fb92fec98dc393e59fb63ad1533d8d66c230a1ddec263309dece9ae884ee3"
 metafile = true
 
 [[files]]
@@ -1052,6 +1062,11 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "1f24b43be5efacc252ef6df1d794ea811fd3f33e6f76d6d999e11e28018e553e"
+metafile = true
+
+[[files]]
+file = "mods/sinytra-connector.pw.toml"
+hash = "0eab5a7036d1f06d6a7d4679685eaec5723a5c21469f519de1cd1e0ff416ade3"
 metafile = true
 
 [[files]]
