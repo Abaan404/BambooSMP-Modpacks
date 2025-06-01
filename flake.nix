@@ -15,6 +15,12 @@
 
     in
     {
-      devShells.${system}.default = pkgs.mkShell { buildInputs = [ pkgs.packwiz ]; };
+      devShells.${system}.default = pkgs.mkShell {
+          buildInputs = [
+              pkgs.packwiz
+              pkgs.act
+              pkgs.gh
+          ];
+      };
     };
 }
