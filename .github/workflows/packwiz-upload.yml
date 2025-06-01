@@ -28,11 +28,6 @@ jobs:
                   rm mods/figura-0.1.5+1.20.1-forge-mc.jar
                   rm mods/oculus-mc1.20.1-1.8.0.jar
 
-    deploy:
-        needs: build
-        runs-on: ubuntu-latest
-
-        steps:
             - name: Deploy to Server via SFTP
               uses: Dylan700/sftp-upload-action@v1.2.3
               with:
@@ -43,8 +38,8 @@ jobs:
                   uploads: |
                       server/ => /
 
-    deploy-pages:
-      needs: deploy
+    deploy:
+      needs: build
 
       permissions:
         pages: write
