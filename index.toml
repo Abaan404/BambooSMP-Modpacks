@@ -505,11 +505,6 @@ file = "kubejs/startup_scripts/portal.js"
 hash = "2fdb08a9f0efceebeea13b743835b9625dc1ea315d12e72aacc11d1bf649ae40"
 
 [[files]]
-file = "mods/advanced-backups.pw.toml"
-hash = "cbc8db716459ff5804441400382314acc303919f6357ec09c708e4cb75efe9cc"
-metafile = true
-
-[[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "2362e168d550f0a3a3bea1715a495d7c54fe6e9f159b948981eae15c53df597c"
 metafile = true
