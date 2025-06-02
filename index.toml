@@ -13,10 +13,6 @@ file = "config/scguns-common.toml"
 hash = "58937c53bd828b12827f88f5c41a35e1d59178e202f31e48be28b54a8b33760a"
 
 [[files]]
-file = "dynmap/configuration.txt"
-hash = "28f18c8e95e46d4bfdd58a39b1bbb4f886e8e5158772efe7bd0fa6f6328b88b8"
-
-[[files]]
 file = "dynmap/worlds.txt"
 hash = "145da9d0a8a429ddfab857df1c9d4c86a530e5cc08191be17351d2ea82d531a1"
 
