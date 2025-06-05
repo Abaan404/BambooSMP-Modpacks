@@ -14,7 +14,7 @@ hash = "58937c53bd828b12827f88f5c41a35e1d59178e202f31e48be28b54a8b33760a"
 
 [[files]]
 file = "dynmap/worlds.txt"
-hash = "145da9d0a8a429ddfab857df1c9d4c86a530e5cc08191be17351d2ea82d531a1"
+hash = "110eb4f1126b9dff1cbea8db6546c19c00a274f0e5f1c0bb336f509079492851"
 
 [[files]]
 file = "global_packs/required_data/Exosphere/data/eco/worldgen/placed_feature/acacia_bushes_dense.json"
@@ -495,6 +495,10 @@ hash = "d0e39d155b74ec7ae95b8d9e2ba7c2a9bc044f64742279c9735ea772493b2757"
 [[files]]
 file = "icon.png"
 hash = "d977901cde5160811019989354c9fe6144883a6ccb417ee32abbbd3c37870b89"
+
+[[files]]
+file = "kubejs/server_scripts/tfmg.js"
+hash = "3af87417bd4fdaf2bb96373015417e06ec81d857f250bb210cd1a711696ac9f8"
 
 [[files]]
 file = "kubejs/startup_scripts/portal.js"
@@ -1116,8 +1120,23 @@ hash = "b5280a819e67fcc922f041ec277823ff8574565472c8afd9a36afbe716f9542c"
 metafile = true
 
 [[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "3eede8a7ebafb69840153ff51dbc879b0232799e90a834ab6d71274b1316179f"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "4ddff1daf862f7e481a6c30c4cbb4bb32165f2c73cefc908dbf62b18f0d46a56"
+metafile = true
+
+[[files]]
 file = "mods/timeless-and-classics-zero.pw.toml"
 hash = "463e6fd09b6c6bc186e6795345b8f908e2aacf183d9a2fc4d48b35d8931071d2"
+metafile = true
+
+[[files]]
+file = "mods/trash-cans.pw.toml"
+hash = "13af80b2b1274ebea8a8afdd31340b98280ae70ae7a64061162d0b07e75e0929"
 metafile = true
 
 [[files]]

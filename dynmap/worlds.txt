@@ -1,6 +1,20 @@
 worlds:
   - name: abaan404_anotheroverworld
-    enabled: false
+    title: "Resource World"
+    visibilitylimits:
+    - x0: -5000
+      z0: -5000
+      x1: 5000
+      z1: 5000
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: "Flat"
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
 
   - name: world
     title: "Overworld"
