@@ -501,6 +501,10 @@ file = "kubejs/server_scripts/tfmg.js"
 hash = "3af87417bd4fdaf2bb96373015417e06ec81d857f250bb210cd1a711696ac9f8"
 
 [[files]]
+file = "kubejs/server_scripts/zinc.js"
+hash = "65aae721056aaca9872a46be197d92319dbe5cc0b6237ae4dbb0fd6eb6c7f606"
+
+[[files]]
 file = "kubejs/startup_scripts/portal.js"
 hash = "2fdb08a9f0efceebeea13b743835b9625dc1ea315d12e72aacc11d1bf649ae40"
 
@@ -630,6 +634,11 @@ hash = "881a025d44c6520a8e2cf0cf1932ba7c3b4b2ee90372f4162907622eff8b4794"
 metafile = true
 
 [[files]]
+file = "mods/create-extra-gauges.pw.toml"
+hash = "ef87423e6625ad4131bd37fd8664bfe43d098a01501484357c4ebf229919ef22"
+metafile = true
+
+[[files]]
 file = "mods/create-food.pw.toml"
 hash = "4012db40772e97dcd9698bb360a7209a7c0c777d5013d9011efe7c53ed5200a2"
 metafile = true
@@ -671,7 +680,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "b98c4e8c756f636437806c64456b2ace9e822957dc529ef9eb856ac9119173b0"
+hash = "26b5eb49763ba8b3078ea93222f2b73e86ad4b3b2030a1b7628aab37b9061ae2"
 metafile = true
 
 [[files]]
@@ -711,7 +720,7 @@ metafile = true
 
 [[files]]
 file = "mods/dcintegration.pw.toml"
-hash = "8c04f9fd776591ebe8050f7504f23ef5b36f16507d95107b1c53ff408b01b3f8"
+hash = "d8f52da66536863a24f44cc7c6b9c8c9000d67e75c566f87d1b42e3842af1f32"
 metafile = true
 
 [[files]]
@@ -731,7 +740,12 @@ metafile = true
 
 [[files]]
 file = "mods/drp-global-datapack.pw.toml"
-hash = "90469536a2f31da1da4b72762d8ef8c985c1301f83b1ff3f5a289fa67bd25257"
+hash = "b83d45ba3ee98d6052251af9756dc8b86cb156d1a8c41f8e8a70fd5d5c1d85b2"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-view.pw.toml"
+hash = "9503bfd7d59bb3f50232a6c5ea90e5790e178cc96b2463eb3e9775f65d1ef4ea"
 metafile = true
 
 [[files]]
@@ -746,7 +760,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynmapforge.pw.toml"
-hash = "a9df7957db29bd5934360117797e75baa6fc0a12a9ef99c1bddb66a7ad30a7ce"
+hash = "75004eda27c75a820908496f3b0fcc82880efcc1bded5ee35b61482c8d5a328a"
 metafile = true
 
 [[files]]
@@ -811,7 +825,7 @@ metafile = true
 
 [[files]]
 file = "mods/figura.pw.toml"
-hash = "9c2de144691d57dc2c1833b131da1d3102713cb12020dddce03558ec8b65a3b8"
+hash = "f962525c872e0e925ea0065fccf4efe99ed534c376003db5cf3f6e7faa6b09fb"
 metafile = true
 
 [[files]]
@@ -911,7 +925,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-zoom.pw.toml"
-hash = "d4a290a9bd2da03a76e63563669d76d9483d00adc77c0d5ba1d72fe4d5eaa69e"
+hash = "1b00016b104368daab12a28d92088fd95c5c33a1ac991f0072ca8870ae89983f"
 metafile = true
 
 [[files]]
@@ -970,6 +984,11 @@ hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
 metafile = true
 
 [[files]]
+file = "mods/mysql-jdbc.pw.toml"
+hash = "2447d7eb05e8a4f9c36bc2a56a469884a5139be7c093017e00c82d5b36f77435"
+metafile = true
+
+[[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "464e83a35e22e9bbdf7be38cf7a7a98c39462a0a50b01d2a1355bcae9167ea7a"
 metafile = true
@@ -996,7 +1015,7 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-hash = "5ef885f9912ff6aa73db254b63a3cd22520f06261bc3c38e7c92f449806a9044"
+hash = "200f79b635a087841698c85ac7028f0a1fac2cc4ffae1d59ff3f07a94abfe70e"
 metafile = true
 
 [[files]]
@@ -1130,8 +1149,13 @@ hash = "4ddff1daf862f7e481a6c30c4cbb4bb32165f2c73cefc908dbf62b18f0d46a56"
 metafile = true
 
 [[files]]
+file = "mods/tacz-create.pw.toml"
+hash = "300b6eaab00394188341117c0921de05c1b9739b44ca434dc3fa572f403b870c"
+metafile = true
+
+[[files]]
 file = "mods/timeless-and-classics-zero.pw.toml"
-hash = "463e6fd09b6c6bc186e6795345b8f908e2aacf183d9a2fc4d48b35d8931071d2"
+hash = "7768af2f7e38ad5d9f0d6b223fd5b838551e9b4df2119b8ae4c69f015bee09be"
 metafile = true
 
 [[files]]
