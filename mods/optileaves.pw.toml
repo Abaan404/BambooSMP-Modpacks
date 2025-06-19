@@ -1,0 +1,13 @@
+name = "OptiLeaves"
+filename = "optileaves-1.20.x-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5c1a912264a2b6c8a975bb54d9e077532ffe3b95"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6539650
+project-id = 1191403
