@@ -658,11 +658,6 @@ hash = "e52c66be05b182c4b77c272b63c08c905d593895c58e481572debc3398d54142"
 metafile = true
 
 [[files]]
-file = "mods/create-extra-gauges.pw.toml"
-hash = "ef87423e6625ad4131bd37fd8664bfe43d098a01501484357c4ebf229919ef22"
-metafile = true
-
-[[files]]
 file = "mods/create-factory-logistics.pw.toml"
 hash = "add2a701f17203d32a0c8fceabd39eaccb4d7d55e7dcfbbf0c8b643610d3ce0f"
 metafile = true
