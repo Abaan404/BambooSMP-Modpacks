@@ -528,6 +528,11 @@ hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
 metafile = true
 
 [[files]]
+file = "mods/ash-api.pw.toml"
+hash = "6e055d9a52c0c2eece73425b68d59c89b23b0aa091d93269863e5869b0298d6f"
+metafile = true
+
+[[files]]
 file = "mods/automobility.pw.toml"
 hash = "5e3ff30d77ab34aba80c887c01838d408a20e4730726c98feffbf15c568a7b5b"
 metafile = true
@@ -850,6 +855,11 @@ metafile = true
 [[files]]
 file = "mods/figura.pw.toml"
 hash = "f962525c872e0e925ea0065fccf4efe99ed534c376003db5cf3f6e7faa6b09fb"
+metafile = true
+
+[[files]]
+file = "mods/flourish.pw.toml"
+hash = "93827e0e0614be728e76e56f2439a9a51c963c47680c4af7237c0ff8e9ab30c2"
 metafile = true
 
 [[files]]
