@@ -1,0 +1,13 @@
+name = "Create: Configurable Machine Outputs"
+filename = "crushingwheelrecipeselector-1.1.0-create-6.0.x-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e278c1c994cc71e27b5dd0553058350a6996db04"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7421966
+project-id = 1400987

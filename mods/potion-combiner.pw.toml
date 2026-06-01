@@ -1,0 +1,13 @@
+name = "Potion Combiner [Potion Blending Combiner]"
+filename = "potion_combiner-1.21.1-Neoforge-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b6ab277f2b12430a63ca1b3f74303e542928a2c2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7258831
+project-id = 1391289

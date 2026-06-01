@@ -1,0 +1,13 @@
+name = "End's Delight - Patched (Unofficial)"
+filename = "ends_delight-2.5.1+neoforge.1.21.1-patched.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a80966b25a382d790d95d6002fa6d7eefb1e5f04"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8095134
+project-id = 1544103

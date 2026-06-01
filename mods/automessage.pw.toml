@@ -1,0 +1,13 @@
+name = "AutoMessage"
+filename = "automessage-merged-1.21.1-3.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1c312eb30c8e1bd608d4ea66b1a950f780ee814a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7018836
+project-id = 868624

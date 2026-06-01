@@ -1,0 +1,13 @@
+name = "Create: More Features - Overhauled"
+filename = "create_mf-1.0.1-overhauled.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aa2b9556a3448d191f020526e0b480cae8bc1a85"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8141826
+project-id = 1548381

@@ -1,0 +1,13 @@
+name = "Unlocked Typing"
+filename = "unlocked_typing-merged-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a36cea84de78f81970f156319cdbb5848ea8f47d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7283562
+project-id = 1373339

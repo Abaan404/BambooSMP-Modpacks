@@ -1,0 +1,13 @@
+name = "Auto Pickup Filter [Loot Filter]"
+filename = "Auto Pickup Filter - Neoforge 1.21.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f4c32eab0520cf0a7b114a77064cc035a0b38962"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7404054
+project-id = 1408266
