@@ -4,3 +4,11 @@
 # Exclude README
 /README.md
 /.github/*
+
+# flake stuff
+/flake.nix
+/flake.lock
+
+# direnv stuff
+/.direnv
+/.envrc
