@@ -4265,6 +4265,11 @@ hash = "9ad47b3747d5aad0939d148ee9d7f26ee924d42f38e46d8038469fdfb8262c48"
 metafile = true
 
 [[files]]
+file = "mods/create-the-air-war.pw.toml"
+hash = "6595e6349625fdb4ac6cf8da66d4fd3a0c4c5e7fb5a71173d9c4fb672c311a6d"
+metafile = true
+
+[[files]]
 file = "mods/create-trading-floor.pw.toml"
 hash = "73ffac269e3ce480c7dd3a17e7f2f027e73727fcc375d4e1cef4c490cdd36686"
 metafile = true
