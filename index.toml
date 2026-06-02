@@ -3681,6 +3681,11 @@ hash = "11ac16243f0bcc51a0d794a064cd06ec1dc24daac4c076fad3e707130dc8c1ce"
 metafile = true
 
 [[files]]
+file = "mods/advanced-backups.pw.toml"
+hash = "0effc5a9a5a90e1db4b9843a282669bca912a4f28b746222ff8a95b07ae63f97"
+metafile = true
+
+[[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "925868d37e4696c59df77549f9e64207780d4655219fd5cfc0b187df302d45f8"
 metafile = true
@@ -3943,6 +3948,11 @@ metafile = true
 [[files]]
 file = "mods/chunk-sending-forge-fabric.pw.toml"
 hash = "70c4fe11582592bf38c8ac86b0d5923593772191fdcdf39de4b2c4b949c04f3d"
+metafile = true
+
+[[files]]
+file = "mods/chunky-pregenerator-forge.pw.toml"
+hash = "6f3b2586044baf55d5b1cb07752c9def847208270480bf9d893c803277493c1f"
 metafile = true
 
 [[files]]
@@ -4341,6 +4351,11 @@ hash = "a35abc9918ab470587cb18f05a37918a921ec0ae59f1c256ebec3c20d819904e"
 metafile = true
 
 [[files]]
+file = "mods/discord-integration.pw.toml"
+hash = "1a17ba7af34a8e2eabfe2e037f747774bcefa79d4ac8159366ee024b493109bb"
+metafile = true
+
+[[files]]
 file = "mods/domum-ornamentum.pw.toml"
 hash = "6c24c76b488ac178c1bf9d18a68e16b735b95d4dfd38c225bf82ab1623cf9072"
 metafile = true
@@ -4451,6 +4466,11 @@ hash = "9f5e29573d64c3e33e372a2d2140335bcb1d84c3afcfc0933cad258acbd4178e"
 metafile = true
 
 [[files]]
+file = "mods/extreme-sound-muffler.pw.toml"
+hash = "6d51c8adfc6782f216a150dedda2ea64969a639f4e21401eb5c5b5ac8c9ab28f"
+metafile = true
+
+[[files]]
 file = "mods/factory-blocks.pw.toml"
 hash = "f8890e55be67dddba9789c5913e934ae06c2f0c3af83c231916c0ef305a16ff5"
 metafile = true
@@ -4551,6 +4571,11 @@ hash = "6a2693aaab21ce7c32b958b81ee5e9cad0d014cdf68c067049b2fc652159d9d1"
 metafile = true
 
 [[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "0b7687a29b0dd4400e6c2db295a81b9543c7275674f8b357f57dc64b9d5f49be"
+metafile = true
+
+[[files]]
 file = "mods/garnished.pw.toml"
 hash = "7d7c335a04639c05105316cbebb8e68a4f3cf4f360eb1248b8eb9af2f2baa8f6"
 metafile = true
@@ -4628,6 +4653,16 @@ metafile = true
 [[files]]
 file = "mods/immersive-armors.pw.toml"
 hash = "349044f44e7d44c305eeae7f56f0e965bdc70945ba459f1433dac468283f0b74"
+metafile = true
+
+[[files]]
+file = "mods/immersive-melodies.pw.toml"
+hash = "864f0fe0c99841fa5e3442be60159a937cc557f4976e341d5ccc60ce8894d640"
+metafile = true
+
+[[files]]
+file = "mods/immersive-paintings.pw.toml"
+hash = "bb3856ceaf3933734518e14d3d9249c9bd7cddc3fcf2d674112a201789be4716"
 metafile = true
 
 [[files]]
@@ -4743,6 +4778,11 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "d7ed4aa2c8e01de8d38b08f96b7f10dac30b96df1c1e7f4b924588a36f5bdca3"
+metafile = true
+
+[[files]]
+file = "mods/luckperms.pw.toml"
+hash = "0b0b8ec73c689824125ed9c568deff51b0adca52aee27e49a114b04ff3f73abe"
 metafile = true
 
 [[files]]
@@ -4918,6 +4958,11 @@ metafile = true
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "dde4d08197acbd026127ab3a7f1de5c1796b54e1cd878a1bee2be9eab4aa77bf"
+metafile = true
+
+[[files]]
+file = "mods/observable.pw.toml"
+hash = "00fb150ec4389dbe540bcede8ac3b6e34677f5bf3e3454732d311b7e44569d63"
 metafile = true
 
 [[files]]
@@ -5171,6 +5216,11 @@ hash = "39f04c55a2bd99df584fe260b0cccfcbda4bb1dfb553fb615517bf4449f4d446"
 metafile = true
 
 [[files]]
+file = "mods/squaremap.pw.toml"
+hash = "e13f7564c66d7cd8fcad6e7c973cec01c51298445385f65a995d2d469e08497d"
+metafile = true
+
+[[files]]
 file = "mods/steam-n-rails-neoforge.pw.toml"
 hash = "ff0bcf358006b6a6a55c406ba2409cf14bbba5bb99d8a5122abcc8b1ade85f04"
 metafile = true
@@ -5213,6 +5263,11 @@ metafile = true
 [[files]]
 file = "mods/superoreblock.pw.toml"
 hash = "5a9dda31155bf9ad416a82348775ce9cebfdea2828726410adfe3827a8e4a073"
+metafile = true
+
+[[files]]
+file = "mods/tacz-1-21-1.pw.toml"
+hash = "bb5aec52942c79e677ee8916e56aafcf5ff5df631ac7d819915cd5bf8bfaadff"
 metafile = true
 
 [[files]]
