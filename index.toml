@@ -4711,6 +4711,11 @@ hash = "4168e582bad609f4212575b5c0ace1c7d3238496c11d525445e40933b4ee5240"
 metafile = true
 
 [[files]]
+file = "mods/just-blahaj.pw.toml"
+hash = "6a5d4924df72381561db19190752a45d253beaa404ac78155927f00dc666c42d"
+metafile = true
+
+[[files]]
 file = "mods/just-enough-professions-jep.pw.toml"
 hash = "f68d6d20d2f1ae3edb429736a46e63fb0a7c3828d876b927431697dd289ab138"
 metafile = true
