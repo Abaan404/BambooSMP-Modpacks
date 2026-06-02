@@ -3,7 +3,7 @@ name: upload-server
 on:
     workflow_dispatch:
     push:
-        branches: [WAP-S3.5]
+        branches: [s4]
 
 jobs:
     build:
