@@ -4720,11 +4720,6 @@ hash = "4168e582bad609f4212575b5c0ace1c7d3238496c11d525445e40933b4ee5240"
 metafile = true
 
 [[files]]
-file = "mods/just-blahaj.pw.toml"
-hash = "6a5d4924df72381561db19190752a45d253beaa404ac78155927f00dc666c42d"
-metafile = true
-
-[[files]]
 file = "mods/just-enough-professions-jep.pw.toml"
 hash = "5831aa23204273af1ce6aeb9e3615425271689105ea9035fdb7d6ea871d08a3c"
 metafile = true
@@ -4737,6 +4732,11 @@ metafile = true
 [[files]]
 file = "mods/just-zoom.pw.toml"
 hash = "9cf35d5b0b7ab064ea54e393af17304e5264ee6a59f5224fb5b79ad3c45ea22f"
+metafile = true
+
+[[files]]
+file = "mods/justblahaj.pw.toml"
+hash = "d02e1dd9a5075a02e6751e6319272c2e4293a616bfd275e09bbca356319123a9"
 metafile = true
 
 [[files]]

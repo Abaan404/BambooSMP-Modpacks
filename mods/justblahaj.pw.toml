@@ -1,0 +1,13 @@
+name = "Just Blahaj"
+filename = "just_blahaj-3.1.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aeee2a3b4a65dc7813551eae92c2dea9f64af429"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7567577
+project-id = 1055947
