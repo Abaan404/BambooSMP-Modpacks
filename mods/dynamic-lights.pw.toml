@@ -1,6 +1,6 @@
 name = "Dynamic Lights"
 filename = "dynamiclights-1.21.1.2NF.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

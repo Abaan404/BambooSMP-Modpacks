@@ -1,6 +1,6 @@
 name = "Boss Refreshed"
 filename = "boss-refreshed-v2-1.19-1.21.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
