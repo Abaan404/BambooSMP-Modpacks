@@ -2369,7 +2369,7 @@ hash = "dedece9dde376539875056acbbf1274e1fadc847a07b7c388884e5091b31572b"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
-hash = "df97d93407a6babe2efd80d6d5a912b0bc5dbbf8de9ccb08be2880f731c30ec1"
+hash = "a355a24397af8b5ecb25d6c0d287f591092dd05c33b82d132f104c65d22d93a1"
 
 [[files]]
 file = "config/ftblibrary-client.snbt"
