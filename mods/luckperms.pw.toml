@@ -1,13 +1,13 @@
 name = "LuckPerms"
-filename = "LuckPerms-NeoForge-5.4.140.jar"
-side = "both"
+filename = "LuckPerms-Forge-5.4.150.jar"
+side = "server"
 
 [download]
 hash-format = "sha1"
-hash = "bd368d3254d81120a8c287f79c0467478ad2d73e"
+hash = "1c4bb4e8aa046f6854ccdc6ba18a6205cc634392"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5654231
+file-id = 5971547
 project-id = 431733
