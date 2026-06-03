@@ -4035,6 +4035,11 @@ hash = "d2ae1ed8ab5ed174ed3aff38062795975246be4e852245237ac1007db7a084b3"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-gyroscope-stabilizers.pw.toml"
+hash = "516e15291b98bc41be9da35ed4108baf0b20defe424b12e36904c6a184c6769c"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-mekanism-compatibility.pw.toml"
 hash = "0bf9b94c66788213797f36adc428d1cf9a8048e651aaf2288db6a5bd34f32471"
 metafile = true
