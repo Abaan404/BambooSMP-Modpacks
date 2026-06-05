@@ -1485,7 +1485,7 @@ hash = "d87d179512584a76999032263c4403b86c8f0d08b129e2b15a09082c3b286211"
 
 [[files]]
 file = "config/create-server.toml"
-hash = "36216a05f3ed63106ba587c8c24ed6315385829e7f3dae695dcf545aba41a270"
+hash = "320799e170850c2aade7be34dcb01d1f967e2394908389223f9f5fedaa161897"
 
 [[files]]
 file = "config/create-stuff-additions-1.toml.bak"

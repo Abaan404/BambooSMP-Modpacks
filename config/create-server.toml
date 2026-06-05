@@ -464,7 +464,7 @@
 	#The maximum allowed file size of uploaded Schematics.
 	# Default: 256
 	# Range: > 16
-	maxTotalSchematicSize = 256
+	maxTotalSchematicSize = 51200
 	#.
 	#[in Bytes]
 	#The maximum packet size uploaded Schematics are split into.
@@ -484,7 +484,7 @@
 		#Amount of game ticks between shots of the cannon. Higher => Slower
 		# Default: 10
 		# Range: > 1
-		schematicannonDelay = 10
+		schematicannonDelay = 2
 		#.
 		#Amount of blocks a Schematicannon can print per Gunpowder item provided.
 		# Default: 400
